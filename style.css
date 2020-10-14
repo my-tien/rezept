@@ -1,0 +1,129 @@
+:root {
+	--border_color: rgb(218, 226, 233);
+	--line_height: 1.5em;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div.separator {
+	position: relative;
+	height: 100px;
+	text-align: center;
+	font-size: 32px;
+}
+div.separator::before {
+	position: absolute;
+	height: 2px;
+	background-color: var(--border_color);
+	opacity: 0.5;
+	top: calc(50% - 1px);
+	left: 25%;
+	right: 25%;
+	content: '';
+}
+div.separator::after {
+	position: absolute;
+	width: var(--line_height);
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: #ffffff;
+	color: var(--border_color);
+	content: '❋';
+}
+
+dl {
+	margin-top: 2em;
+}
+dl * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+dt {
+	margin-right: 0.5em;
+}
+
+dd {
+	font-weight: bold;
+	margin-right: 2em;
+}
+
+header {
+	text-align: center;
+	height: 10em;
+	padding: 5em;
+	margin: -16px -16px 0;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 80%), url('images/ciabatta.jpg');
+	background-size: cover;
+	color: #ffffff;
+
+}
+
+header svg {
+	width: 24px;
+	height: 24px;
+}
+
+table {
+	font-family: 'Calibri', sans-serif;
+	border-collapse: collapse;
+	border: 1px solid var(--border_color);
+	width: 100%;
+}
+
+#IngredientsClone {
+	position: fixed;
+	visibility: hidden;
+	background-color: white;
+	bottom: 0px;
+	left: 0px;
+	transform: translateX(-100%) translateX(20px);
+	transition: 0.25s;
+}
+
+td, th {
+	text-align: left;
+	padding: 8px;
+	vertical-align: middle;
+}
+
+tr:nth-child(even) {
+	background-color: var(--border_color);
+}
+
+figure.instruction {
+	display: table;
+	margin: 0.5em auto;
+}
+
+figure.instruction figcaption {
+	display: table-caption;
+	 caption-side: bottom;
+}
+
+body {
+	padding: 16px;
+	line-height: var(--line_height);
+}
+
+#Instructions > li {
+	margin-top: 1.25em;
+}
+
+ul {
+	margin: 0 2.5em;
+}
+ul li {
+	list-style: none;
+	position: relative;
+}
+ul li::before {
+	content: '❧';
+	color: var(--border_color);
+	opacity: 1;
+	position: absolute;
+	left: -1.4em;
+}
