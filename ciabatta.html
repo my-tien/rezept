@@ -18,13 +18,13 @@
 	<div id='Ingredients'>
 		<table>
 			<tr><th colspan='3'>Zutaten <input type='number' class='portions' value='1' min='0'></th></tr>
-		<tr><td class='amount' value='500'></td><td>g</td><td>Mehl</td></tr>
-		<tr><td class='amount' value='400'></td><td>ml</td><td>Lauwarmes Wasser</td></tr>
-		<tr><td class='amount' value='1'></td><td>TL</td><td>Zucker</td></tr>
-		<tr><td class='amount' value='21'></td><td>g</td><td>Frische Hefe</td></tr>
-		<tr><td class='amount' value='2'></td><td>TL</td><td>Salz</td></tr>
-		<tr><td class='amount' value='2'></td><td>TL</td><td>Kräuter (zB. Oregano, Rosmarin, Basilikum)</td></tr>
-		<tr><td class='amount' value='3'></td><td>EL</td><td>Olivenöl</td></tr>
+		<tr><td class='amount' base='500'></td><td>g</td><td>Mehl</td></tr>
+		<tr><td class='amount' base='400'></td><td>ml</td><td>Lauwarmes Wasser</td></tr>
+		<tr><td class='amount' base='1'></td><td>TL</td><td>Zucker</td></tr>
+		<tr><td class='amount' base='21'></td><td>g</td><td>Frische Hefe</td></tr>
+		<tr><td class='amount' base='2'></td><td>TL</td><td>Salz</td></tr>
+		<tr><td class='amount' base='2'></td><td>TL</td><td>Kräuter (zB. Oregano, Rosmarin, Basilikum)</td></tr>
+		<tr><td class='amount' base='3'></td><td>EL</td><td>Olivenöl</td></tr>
 		<tr><th colspan='3'>Zubehör</th></tr>
 		<tr><td colspan='3'>Teigschaber</td></tr>
 		<tr><td colspan='3'>Ofenfeste Schale</td></tr>
@@ -89,7 +89,7 @@
 			multiplicator.value = Number(factor);
 		}
 		for (var i = 0; i < amounts.length; ++i) {
-			amounts[i].textContent = Number(amounts[i].getAttribute('value')) * Number(factor);
+			amounts[i].textContent = Number(amounts[i].getAttribute('base')) * Number(factor);
 		}
 	}
 
