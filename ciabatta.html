@@ -59,16 +59,16 @@
 <div id='IngredientsClone' onclick='toggleSideBar()'></div>
 
 <script>
-	var ingredients = document.getElementById('Ingredients');
-	var ingredientsClone = document.getElementById('IngredientsClone');
-	var multiplicators = document.getElementsByClassName('portions');
-	var amounts = document.getElementsByClassName('amount');
+	const ingredients = document.getElementById('Ingredients');
+	const ingredientsClone = document.getElementById('IngredientsClone');
+	const multiplicators = document.getElementsByClassName('portions');
+	const amounts = document.getElementsByClassName('amount');
 	var collapsed = true;
 
 	function init() {
 		cloneIngredients();
 
-		for (var multiplicator of multiplicators) {
+		for (let multiplicator of multiplicators) {
 			multiplicator.addEventListener('click', function(e) {
 				multiplyIngredients(e.target.value);
 				e.stopPropagation();
@@ -79,25 +79,25 @@
 	}
 
 	function cloneIngredients() {
-		var ingredientsTable = ingredients.firstElementChild;
-		var ingredientsTableClone = ingredientsTable.cloneNode(true);
+		let ingredientsTable = ingredients.firstElementChild;
+		let ingredientsTableClone = ingredientsTable.cloneNode(true);
 		ingredientsClone.appendChild(ingredientsTableClone);
 	}
 
 	function multiplyIngredients(factor) {
-		for (var multiplicator of multiplicators) {
+		for (let multiplicator of multiplicators) {
 			multiplicator.value = Number(factor);
 		}
-		for (var i = 0; i < amounts.length; ++i) {
+		for (let i = 0; i < amounts.length; ++i) {
 			amounts[i].textContent = Number(amounts[i].getAttribute('base')) * Number(factor);
 		}
 	}
 
 	document.addEventListener('scroll', function(e) {
-		var ingredientsVisible = !(window.scrollY > (ingredients.offsetTop + ingredients.offsetHeight));
+		let ingredientsVisible = !(window.scrollY > (ingredients.offsetTop + ingredients.offsetHeight));
 		ingredientsClone.style.visibility = ingredientsVisible? 'hidden' : 'visible';
 		if (!collapsed && ingredientsClone.style.visibility == 'hidden') {
-			var oldTransition = ingredientsClone.transition;
+			let oldTransition = ingredientsClone.transition;
 			ingredientsClone.transition = '0s';
 			toggleSideBar();
 			ingredientsClone.transition = oldTransition;
