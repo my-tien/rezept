@@ -17,7 +17,7 @@
 	<div class='separator'></div>
 	<div id='Ingredients'>
 		<table>
-			<tr><th colspan='3'>Zutaten <input type='number' id='portions' value='1' oninput='multiplyIngredients()' min='0'></th></tr>
+			<tr><th colspan='3'>Zutaten <input type='number' class='portions' value='1' min='0'></th></tr>
 		<tr><td class='amount' value='500'></td><td>g</td><td>Mehl</td></tr>
 		<tr><td class='amount' value='400'></td><td>ml</td><td>Lauwarmes Wasser</td></tr>
 		<tr><td class='amount' value='1'></td><td>TL</td><td>Zucker</td></tr>
@@ -61,9 +61,38 @@
 <script>
 	var ingredients = document.getElementById('Ingredients');
 	var ingredientsClone = document.getElementById('IngredientsClone');
-	var multiplicator = document.getElementById('portions');
+	var multiplicators = document.getElementsByClassName('portions');
 	var amounts = document.getElementsByClassName('amount');
 	var collapsed = true;
+
+	function init() {
+		cloneIngredients();
+
+		for (var multiplicator of multiplicators) {
+			multiplicator.addEventListener('click', function(e) {
+				multiplyIngredients(e.target.value);
+				e.stopPropagation();
+			}, true);
+		}
+
+		multiplyIngredients(multiplicators[0].value);
+	}
+
+	function cloneIngredients() {
+		var ingredientsTable = ingredients.firstElementChild;
+		var ingredientsTableClone = ingredientsTable.cloneNode(true);
+		ingredientsClone.appendChild(ingredientsTableClone);
+	}
+
+	function multiplyIngredients(factor) {
+		for (var multiplicator of multiplicators) {
+			multiplicator.value = Number(factor);
+		}
+		for (var i = 0; i < amounts.length; ++i) {
+			amounts[i].textContent = Number(amounts[i].getAttribute('value')) * Number(factor);
+		}
+	}
+
 	document.addEventListener('scroll', function(e) {
 		var ingredientsVisible = !(window.scrollY > (ingredients.offsetTop + ingredients.offsetHeight));
 		ingredientsClone.style.visibility = ingredientsVisible? 'hidden' : 'visible';
@@ -75,21 +104,6 @@
 		}
 	}, true);
 
-	function init() {
-		cloneIngredients();
-		multiplyIngredients();
-	}
-	function cloneIngredients() {
-		var ingredientsTable = ingredients.firstElementChild;
-		var ingredientsTableClone = ingredientsTable.cloneNode(true);
-		ingredientsClone.appendChild(ingredientsTableClone);
-	}
-	function multiplyIngredients() {
-		ingredientsClone.getElementsByTagName('th')[0].innerHTML = 'Zutaten ×' + String(multiplicator.value);
-		for (var i = 0; i < amounts.length; ++i) {
-			amounts[i].textContent = Number(amounts[i].getAttribute('value')) * Number(multiplicator.value);
-		}
-	}
 	function toggleSideBar() {
 		if (collapsed) {
 			ingredientsClone.style.transform = 'translateX(0%)';
