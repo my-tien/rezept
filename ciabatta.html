@@ -10,9 +10,9 @@
 		<header>
 			<h1>Ciabatta</h1>
 		<dl>
-			<dt><svg viewBox="0 0 512 512"><use href='#stopwatch'></use></svg></dt><dd>4:00 h</dd>
-			<dt><svg viewBox="0 0 512 512"><use href='#servings'></use></svg></dt><dd>1</dd>
-			<dt><svg viewBox="0 0 512 512"><use href='#oven'></use></svg></dt><dd>220°C Ober-/Unterhitze, 00:25 h</dd>
+			<dt><svg><use href='images/icons.svg#stopwatch'></use></svg></dt><dd>4:00 h</dd>
+			<dt><svg><use href='images/icons.svg#servings'></use></svg></dt><dd>1</dd>
+			<dt><svg><use href='images/icons.svg#oven'></use></svg></dt><dd>220°C Ober-/Unterhitze, 00:25 h</dd>
 		</dl>
 	</header>
 	<div class='separator'></div>
@@ -61,92 +61,6 @@
 
 <div style='text-align: right; font-size: xx-small;'>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-<script>
-	const ingredients = document.getElementById('Ingredients');
-	const ingredientsClone = document.getElementById('IngredientsClone');
-	const multiplicators = document.getElementsByClassName('portions');
-	const amounts = document.getElementsByClassName('amount');
-	var collapsed = true;
-
-	function init() {
-		cloneIngredients();
-
-		for (let multiplicator of multiplicators) {
-			multiplicator.addEventListener('click', function(e) {
-				multiplyIngredients(e.target.value);
-				e.stopPropagation();
-			}, true);
-		}
-
-		multiplyIngredients(multiplicators[0].value);
-	}
-
-	function cloneIngredients() {
-		let ingredientsTable = ingredients.firstElementChild;
-		let ingredientsTableClone = ingredientsTable.cloneNode(true);
-		ingredientsClone.appendChild(ingredientsTableClone);
-	}
-
-	function multiplyIngredients(factor) {
-		for (let multiplicator of multiplicators) {
-			multiplicator.value = Number(factor);
-		}
-		for (let i = 0; i < amounts.length; ++i) {
-			amounts[i].textContent = Number(amounts[i].getAttribute('base')) * Number(factor);
-		}
-	}
-
-	document.addEventListener('scroll', function(e) {
-		first_data_row = ingredients.querySelector('tr');
-		let ingredientsVisible = !(window.scrollY > (ingredients.offsetTop + first_data_row.offsetHeight));
-		ingredientsClone.style.visibility = ingredientsVisible? 'hidden' : 'visible';
-		if (!collapsed && ingredientsClone.style.visibility == 'hidden') {
-			let oldTransition = ingredientsClone.transition;
-			ingredientsClone.transition = '0s';
-			toggleSideBar();
-			ingredientsClone.transition = oldTransition;
-		}
-	}, true);
-
-	function toggleSideBar() {
-		if (collapsed) {
-			ingredientsClone.style.transform = 'translateX(0%)';
-		} else {
-			ingredientsClone.style.transform = 'translateX(-100%) translateX(1.5rem)';
-		}
-		collapsed = !collapsed;
-	}
-	</script>
-
-	<svg width='24' height='24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
-		<defs>
-			<g id='stopwatch'>
-				<path fill="currentColor" d="M196,40h120c11.046,0,20-8.954,20-20s-8.954-20-20-20H196c-11.046,0-20,8.954-20,20S184.954,40,196,40z"/>
-				<path fill="currentColor" d="M312.569,207.147l-70.71,70.71c-7.811,7.81-7.812,20.473-0.001,28.284c7.813,7.812,20.475,7.809,28.285,0l70.71-70.71
-				c7.811-7.81,7.812-20.473,0.001-28.284C333.043,199.337,320.381,199.338,312.569,207.147z"/>
-				<path fill="currentColor" d="M256,72C134.413,72,36,170.396,36,292c0,121.587,98.395,220,220,220c121.59,0,220-98.398,220-220
-				C476,170.413,377.604,72,256,72z M256,472c-99.252,0-180-80.748-180-180s80.748-180,180-180s180,80.748,180,180
-				S355.252,472,256,472z"/>
-			</g>
-
-			<g id="servings">
-				<path fill='currentColor' d="M155.183,305.646c-2.081,0.175-4.157,0.265-6.238,0.265c-5.693,0-11.23-0.826-16.652-2.081L6.834,429.293
-				c-6.158,6.149-6.158,16.137,0,22.287l32.47,32.478c6.158,6.15,16.135,6.15,22.276,0l150.785-150.757l-27.944-30.15L155.183,305.646
-			z"/>
-			<path fill='currentColor' d="M485.345,104.649c-5.888-5.885-15.417-5.885-21.304,0l-81.303,81.301c-7.693,7.685-20.154,7.685-27.847,0
-			c-7.659-7.679-7.659-20.13,0-27.807l80.901-80.884c6.112-6.118,6.112-16.036,0-22.168c-6.141-6.11-16.055-6.11-22.167,0
-			l-80.868,80.876c-7.693,7.693-20.14,7.693-27.833,0c-7.677-7.676-7.677-20.136,0-27.806l81.286-81.293
-			c5.904-5.894,5.904-15.441,0-21.343c-5.888-5.895-15.434-5.895-21.338,0l-91.458,91.463
-			c-21.989,22.003-28.935,52.888-21.816,80.991l61.31,61.314c28.101,7.093,59.001,0.144,80.965-21.841l91.471-91.458
-			C491.249,120.1,491.249,110.543,485.345,104.649z"/>
-			<path fill='currentColor' d="M41.093,13.791c-3.134-3.135-7.372-4.854-11.724-4.854c-0.926,0-1.857,0.079-2.766,0.231
-			c-5.295,0.896-9.838,4.295-12.172,9.133c-26.79,55.373-15.594,121.631,27.894,165.121l77.801,77.791
-			c7.676,7.685,18.055,11.939,28.819,11.939c1.151,0,2.305-0.048,3.456-0.143l45.171-3.855l196.971,212.489
-			c3.058,3.303,7.342,5.221,11.855,5.31c0.093,0,0.19,0,0.288,0c4.412,0,8.636-1.743,11.771-4.855l33.734-33.741
-			c3.117-3.11,4.859-7.331,4.859-11.73c0-4.398-1.742-8.622-4.846-11.732L41.093,13.791z"/>
-		</g>
-		<g id="oven"><path fill='currentColor' d="m497 0h-482c-8.284 0-15 6.716-15 15v482c0 8.284 6.716 15 15 15h482c8.284 0 15-6.716 15-15v-482c0-8.284-6.716-15-15-15zm-15 482h-452v-323.467h34.267v274.2c0 8.284 6.716 15 15 15h353.467c8.284 0 15-6.716 15-15v-274.2h34.266zm-387.733-64.267v-259.2h323.467v259.2zm387.733-289.2h-452v-98.533h452z"/><circle cx="111.4" cy="79.267" r="15"/><circle cx="304.2" cy="79.267" r="15"/><circle cx="207.8" cy="79.267" r="15"/><circle cx="400.6" cy="79.267" r="15"/><path fill='currentColor' d="m368.467 192.8h-224.934c-8.284 0-15 6.716-15 15s6.716 15 15 15h224.934c8.284 0 15-6.716 15-15s-6.716-15-15-15z"/></g>
-	</defs>
-	</svg>
+ <script src="functions.js"></script> 
 </body>
 </html>
