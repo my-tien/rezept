@@ -55,7 +55,7 @@ header {
 	text-align: center;
 	height: 10em;
 	padding: 5em;
-	margin: -16px -16px 0;
+	margin: -2rem -2rem 0;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 80%), url('images/ciabatta.jpg');
 	background-size: cover;
 	color: #ffffff;
@@ -83,7 +83,7 @@ table {
 	background-color: white;
 	bottom: 0px;
 	left: 0px;
-	transform: translateX(-100%) translateX(20px);
+	transform: translateX(-100%) translateX(1.5rem);
 	transition: 0.25s;
 }
 
@@ -108,7 +108,7 @@ figure.instruction figcaption {
 }
 
 body {
-	padding: 16px;
+	padding: 1.5rem;
 	line-height: var(--line_height);
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 ul {
-	margin: 0 2.5em;
+	margin: 0 0 0 2.5em;
 }
 ul li {
 	list-style: none;
