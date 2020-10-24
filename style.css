@@ -144,14 +144,12 @@ body {
 	padding: 1.5rem;
 }
 
-#Instructions > li {
-	margin-top: 1.25em;
-}
-
-ul {
+#Instructions  {
 	margin: 0 0 0 2.5em;
 }
 ul li {
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
 	list-style: none;
 	position: relative;
 }

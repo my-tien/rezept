@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>太陽餅 (Tàiyáng Bǐng/Sonnenkuchen)</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body onload='init()'>
+    <header id='Taiyangbing'>
+        <div class='gradient'>
+            <img src='images/taiyangbing.jpg'>
+        </div>
+        <div class='headertext'>
+            <h1>太陽餅 (Tàiyáng Bǐng/Sonnenkuchen)</h1>
+            <dl>
+                <dt><svg><use href='images/icons.svg#stopwatch'></use></svg></dt><dd>2:00 h</dd>
+                <dt><svg><use href='images/icons.svg#servings'></use></svg></dt><dd>12</dd>
+            </dl>
+        </div>
+    </header>
+    <div class='content'>
+    <div class='separator'></div>
+    <div id='Ingredients'>
+        <table>
+            <tr><th colspan='3'>Zutaten <input type='number' class='portions' value='1' min='0'></th></tr>
+            <tr><th colspan='3'>Wasserteig</th></tr>
+        <tr><td class='amount' base='135'></td><td>g</td><td>Mehl (gesiebt)</td></tr>
+        <tr><td class='amount' base='25'></td><td>ml</td><td>Heißes Wasser</td></tr>
+        <tr><td class='amount' base='33'></td><td>g</td><td>Puderzucker (gesiebt)</td></tr>
+        <tr><td class='amount' base='30'></td><td>g</td><td>lauwarmer Butterschmalz</td></tr>
+        <tr><td class='amount' base='0.5'></td><td>g</td><td>Salz</td></tr>
+        <tr><td class='amount' base='57'></td><td>ml</td><td>Kaltes Wasser</td></tr>
+            <tr><th colspan='3'>Ölteig</th></tr>
+        <tr><td class='amount' base='142'></td><td>g</td><td>Mehl (gesiebt)</td></tr>
+        <tr><td class='amount' base='75'></td><td>g</td><td>lauwarmer Butterschmalz</td></tr>
+            <tr><th colspan='3'>Füllung</th></tr>
+        <tr><td class='amount' base='50'></td><td>g</td><td>Mehl (gesiebt)</td></tr>
+        <tr><td class='amount' base='1'></td><td>EL</td><td>Wasser</td></tr>
+        <tr><td class='amount' base='25'></td><td>g</td><td>lauwarmer Butterschmalz</td></tr>
+        <tr><td class='amount' base='50'></td><td>g</td><td>Puderzucker (gesiebt)</td></tr>
+        <tr><td class='amount' base='0.25'></td><td>TL</td><td>Salz</td></tr>
+        <tr><td class='amount' base='30'></td><td>g</td><td>Honig</td></tr>
+        <tr><td class='amount' base='20'></td><td>g</td><td>(Milchpulver)</td></tr>
+            <tr><th colspan='3'>Zubehör</th></tr>
+        <tr><td colspan='3'>Holzfläche für die Teigkugeln</td></tr>
+        <tr><td colspan='3'>Schmales Nudelholz</td></tr>
+        <tr><td colspan='3'>Frischhaltefolie</td></tr>
+            <tr><th colspan='3'><svg><use href='images/icons.svg#oven'></use></svg>Backzeit</th></tr>
+        <tr><td colspan='3'>220°C Ober-/Unterhitze, 8 – 10 Minuten</td></tr>
+    </table>
+</div>
+
+<div class='separator'></div>
+
+<div id='Instructions'>
+<h2>Kurzfassung</h2>
+<ul>
+    <li>Wasserteig vorbereiten und 10 Minuten ruhen lassen.</li>
+    <li>Ölteig vorbereiten und mit Wasserteig vereinen.</li>
+    <li>Füllung vorbereiten und mit Teig vereinen.</li>
+    <li>Backzeit: 8 - 10 Minuten</li>
+</ul>
+<h2>Wasserteig</h2>
+<ul>
+    <li>Mehl mit dem heißen Wasser verrühren.</li>
+    <li>Mit seinen restlichen Zutaten zu einem recht weichen Teig verkneten.</li>
+    <li>10 Minuten unter Frischhaltefolie ruhen lassen.</li>
+    <li>Zu 12 gleichen Kugeln formen.</li>
+</ul>
+<h2>Ölteig</h2>
+<ul>
+    <li>Mehl und Butterschmalz zu einem ähnlich weichen Teig wie der Wasserteig verkneten.</li>
+    <li>Ebenfalls zu 12 gleichen Kugeln formen.</li>
+</ul>
+<h2>Vereinigung der Teige</h2>
+<ul>
+    <li>Eine Kugel des Wasserteigs auf der Handfläche ausbreiten, dabei in der Mitte einen dickeren Boden lassen.</li>
+    <li>Eine Kugel des Ölteigs darauf legen und mit dem Wasserteig umschließen.</li>
+    <li>Auf einer leicht bemehlten Fläche mit einem schmalen Nudelholz den Teig mit wenig Druck einmal nach oben und einmal nach unten ausrollen.</li>
+    <li>Entlang der längeren Seite aufrollen und nochmals ausrollen: jeweils 2× nach oben und unten, sodass Der Teig etwa so lang wie die Handfläche ist.</li>
+    <li>Nochmals entlang der längeren Seite aufrollen.</li>
+    <li>Mit dem Finger eine Delle in die Mitte drücken und entlang dieser Kante die beiden Enden zusammendrücken.</li>
+    <li>Mit allen Kugeln so fortfahren. Die fertigen Kugeln unter der Frischhaltefolie feucht halten.</li>
+</ul>
+<h2>Füllung und Backen</h2>
+<ul>
+    <li>Alle Zutaten zu einer ähnlich weichen Masse verkneten wie die anderen beiden Teige zuvor.</li>
+    <li>Wieder 12 gleiche Kugeln daraus formen und folgendes für alle Kugeln wiederholen:</li>
+    <li>Eine der Teigkugeln in der Handfläche ausbreiten. Die Seite mit den zusammengedrückten Enden ist dabei oben.</li>
+    <li>Mit dem linken Zeigefinger und Daumen ein O formen und darauf die Teigscheibe legen</li>
+    <li>eine Kugel der Füllung darauf legen und mit der rechten Hand abwechselnd die Teigscheibe drehen und die Füllung sanft hinein drücken. Der linke Zeigefinger und Daumen im O drücken dabei die Seiten leicht ein, bis die Füllung umschlossen ist. Oben den Teig gut über der Füllung zusammendrücken.</li>
+    <li>Auf dem Backblech zu einer runden Scheibe mit ca. 0.5 cm Dicke drücken.</li>
+    <li>Ofen auf 220°C Ober-/Unterhitze vorwärmen und 8 – 10 Minuten backen,</li>
+</ul>
+</div>
+<div class='separator'></div>
+<div id='IngredientsClone' onclick='toggleSideBar()'></div>
+
+<div style='text-align: right; font-size: xx-small;'>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+</div>
+ <script src="functions.js"></script> 
+</body>
+</html>
