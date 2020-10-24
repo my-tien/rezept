@@ -99,6 +99,12 @@ tr:nth-child(even) {
 	background-color: var(--border_color);
 }
 
+th > svg {
+	width: 1rem;
+	height: 1rem;
+	margin-right: 0.5em;
+}
+
 figure {
 	overflow-x: auto;
 }
