@@ -68,7 +68,6 @@ header svg {
 }
 
 table {
-	font-family: 'Calibri', sans-serif;
 	border-collapse: collapse;
 	border: 1px solid var(--border_color);
 	width: 100%;
