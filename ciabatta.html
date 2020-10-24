@@ -97,7 +97,8 @@
 	}
 
 	document.addEventListener('scroll', function(e) {
-		let ingredientsVisible = !(window.scrollY > (ingredients.offsetTop + ingredients.offsetHeight));
+		first_data_row = ingredients.querySelector('tr');
+		let ingredientsVisible = !(window.scrollY > (ingredients.offsetTop + first_data_row.offsetHeight));
 		ingredientsClone.style.visibility = ingredientsVisible? 'hidden' : 'visible';
 		if (!collapsed && ingredientsClone.style.visibility == 'hidden') {
 			let oldTransition = ingredientsClone.transition;
