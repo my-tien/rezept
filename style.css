@@ -97,14 +97,16 @@ tr:nth-child(even) {
 	background-color: var(--border_color);
 }
 
+figure {
+	overflow-x: auto;
+}
+
 figure.instruction {
-	display: table;
 	margin: 0.5em auto;
 }
 
 figure.instruction figcaption {
-	display: table-caption;
-	 caption-side: bottom;
+	caption-side: bottom;
 }
 
 body {
