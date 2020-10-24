@@ -67,6 +67,10 @@ header svg {
 	height: 24px;
 }
 
+input {
+	font-size: 1rem;
+}
+
 table {
 	border-collapse: collapse;
 	border: 1px solid var(--border_color);
