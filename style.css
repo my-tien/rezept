@@ -112,6 +112,7 @@ figure.instruction figcaption {
 }
 
 body {
+	overflow-wrap: break-word;
 	padding: 1.5rem;
 	line-height: var(--line_height);
 }
