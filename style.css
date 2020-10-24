@@ -81,8 +81,10 @@ table {
 	position: fixed;
 	visibility: hidden;
 	background-color: white;
+	max-height: 100%;
 	bottom: 0px;
 	left: 0px;
+	overflow-y: auto;
 	transform: translateX(-100%) translateX(1.5rem);
 	transition: 0.25s;
 }
