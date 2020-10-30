@@ -52,14 +52,32 @@ dd {
 }
 
 header {
-	text-align: center;
-	height: 10em;
-	padding: 5em;
-	margin: -2rem -2rem 0;
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 80%), url('images/ciabatta.jpg');
-	background-size: cover;
-	color: #ffffff;
+	position:relative;
+}
 
+header > div.headertext {
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	padding: 5em;
+}
+ 
+div.gradient {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 80%);
+}
+
+div.gradient > img {
+	object-fit: cover;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
 
 header svg {
@@ -119,8 +137,11 @@ figure.instruction figcaption {
 
 body {
 	overflow-wrap: break-word;
-	padding: 1.5rem;
 	line-height: var(--line_height);
+}
+
+.content {
+	padding: 1.5rem;
 }
 
 #Instructions > li {

@@ -7,13 +7,19 @@
 		<link rel='stylesheet' href='style.css'>
 	</head>
 	<body onload='init()'>
-		<header>
-			<h1>Ciabatta</h1>
-		<dl>
-			<dt><svg><use href='images/icons.svg#stopwatch'></use></svg></dt><dd>4:00 h</dd>
-			<dt><svg><use href='images/icons.svg#servings'></use></svg></dt><dd>1</dd>
-		</dl>
+		<header id='Ciabatta'>
+			<div class='gradient'>
+				<img src='images/ciabatta.jpg'>
+			</div>
+			<div class='headertext'>
+				<h1>Ciabatta</h1>
+				<dl>
+					<dt><svg><use href='images/icons.svg#stopwatch'></use></svg></dt><dd>4:00 h</dd>
+					<dt><svg><use href='images/icons.svg#servings'></use></svg></dt><dd>1</dd>
+				</dl>
+			</div>
 	</header>
+	<div class='content'>
 	<div class='separator'></div>
 	<div id='Ingredients'>
 		<table>
@@ -61,7 +67,7 @@
 <div id='IngredientsClone' onclick='toggleSideBar()'></div>
 
 <div style='text-align: right; font-size: xx-small;'>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
+</div>
  <script src="functions.js"></script> 
 </body>
 </html>
