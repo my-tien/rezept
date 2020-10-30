@@ -1,6 +1,6 @@
 :root {
 	--border_color: rgb(218, 226, 233);
-	--line_height: 1.5em;
+	--line_height: 1.5;
 }
 * {
 	margin: 0;
