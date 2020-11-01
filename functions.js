@@ -8,7 +8,7 @@ function init() {
 	cloneIngredients();
 
 	for (let multiplicator of multiplicators) {
-		multiplicator.addEventListener('click', function(e) {
+		multiplicator.addEventListener('input', function(e) {
 			multiplyIngredients(e.target.value);
 			e.stopPropagation();
 		}, true);
