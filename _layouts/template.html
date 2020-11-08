@@ -23,7 +23,7 @@
 	<div class='separator'></div>
 	<div id='Ingredients'>
 		<table>
-            <tr><th colspan='3'>Zutaten <input type='number' class='portions' value='1' min='0'></th></tr>
+            <tr><th colspan='3'>Zutaten <input type='number' class='portions' value='1' min='0' step='any' lang='en'></th></tr>
 		{% for ingredients in page.ingredient_list %}
 		{% assign section = ingredients[0] %}
 		{% assign list = ingredients[1] %}

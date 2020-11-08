@@ -9,12 +9,12 @@ function init() {
 
 	for (let multiplicator of multiplicators) {
 		multiplicator.addEventListener('input', function(e) {
-			multiplyIngredients(e.target.value);
+			multiplyIngredients(e.target);
 			e.stopPropagation();
 		}, true);
 	}
 
-	multiplyIngredients(multiplicators[0].value);
+	multiplyIngredients(multiplicators[0]);
 }
 
 function cloneIngredients() {
@@ -23,12 +23,10 @@ function cloneIngredients() {
 	ingredientsClone.appendChild(ingredientsTableClone);
 }
 
-function multiplyIngredients(factor) {
-	for (let multiplicator of multiplicators) {
-		multiplicator.value = Number(factor);
-	}
+function multiplyIngredients(multiplicator) {
+	multiplicators[Number(multiplicator === multiplicators[0])].value = multiplicator.value;
 	for (let i = 0; i < amounts.length; ++i) {
-		amounts[i].textContent = Number(amounts[i].getAttribute('base')) * Number(factor);
+		amounts[i].textContent = Number(amounts[i].getAttribute('base')) * Number(multiplicator.value);
 	}
 }
 
