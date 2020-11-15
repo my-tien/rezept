@@ -6,7 +6,7 @@ servings: 1
 header_image: /images/ciabatta.jpg
 ingredient_list:
     '':
-          - [500, 'g', 'Mehl']
+          - [500, 'g', 'Mehl Type 550']
           - [400, 'ml', 'Lauwarmes Wasser']
           - [1, 'TL', 'Zucker']
           - [21, 'g', 'Frische Hefe']

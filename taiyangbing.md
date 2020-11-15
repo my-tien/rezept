@@ -6,17 +6,17 @@ servings: 12
 header_image: /images/taiyangbing.jpg
 ingredient_list:
     Wassewrteig:
-        - [135, 'g', 'Mehl (gesiebt)']
+        - [135, 'g', 'Mehl Type 405 (gesiebt)']
         - [25, 'ml', 'Heißes Wasser']
         - [33, 'g', 'Puderzucker (gesiebt)']
         - [30, 'g', 'lauwarmer Butterschmalz']
         - [0.5, 'g', 'Salz']
         - [57, 'ml', 'Kaltes Wasser']
     Ölteig:
-        - [142, 'g', 'Mehl (gesiebt)']
+        - [142, 'g', 'Mehl Type 405 (gesiebt)']
         - [75, 'g', 'lauwarmer Butterschmalz']
     Füllung:
-        - [50, 'g', 'Mehl (gesiebt)']
+        - [50, 'g', 'Mehl Type 405 (gesiebt)']
         - [1, 'EL', 'Wasser']
         - [25, 'g', 'lauwarmer Butterschmalz']
         - [50, 'g', 'Puderzucker (gesiebt)']
