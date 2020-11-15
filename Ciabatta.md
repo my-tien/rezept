@@ -3,7 +3,7 @@ layout: template
 title: Ciabatta
 duration: 4:00 h
 servings: 1
-header_image: /images/ciabatta.jpg
+header_image: /images/Ciabatta.jpg
 ingredient_list:
     '':
           - [500, 'g', 'Mehl Type 550']

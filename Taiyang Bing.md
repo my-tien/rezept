@@ -3,7 +3,7 @@ layout: template
 title: 太陽餅 (Tàiyáng Bǐng/Sonnenkuchen)
 duration: 2:00 h
 servings: 12
-header_image: /images/taiyangbing.jpg
+header_image: /images/Taiyang Bing.jpg
 ingredient_list:
     Wassewrteig:
         - [135, 'g', 'Mehl Type 405 (gesiebt)']
