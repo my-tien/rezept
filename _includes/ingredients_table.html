@@ -1,0 +1,23 @@
+<table class='ingredients'>
+    <tr><th colspan='3'>Zutaten <input type='number' class='portions' value='1' min='0' step='any' lang='en'></th></tr>
+{% for ingredients in page.ingredient_list %}
+{% assign section = ingredients[0] %}
+{% assign list = ingredients[1] %}
+    {% if section.size > 0 %}<tr><th colspan='3'>{{ section }}</th></tr>{% endif %}
+    {% for ingredient in list %}
+        {% if ingredient.size == 3 %}
+            <tr><td class='amount' base='{{ ingredient[0] }}'></td><td>{{ ingredient[1] }}</td><td>{{ ingredient[2] }}</td></tr>
+        {% else %}
+            <tr><td colspan="3">{{ ingredient }}</td></tr>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% if page.oven_instructions %}
+    <tr><th colspan='3'><svg><use href='images/icons.svg#oven'></use></svg>Backzeit</th></tr>
+    <tr><td colspan='3'>{{ page.oven_instructions }}</td></tr>
+{% endif %}
+<tr><th colspan='3'>Zubehör</th></tr>
+{% if page.tools %}{% for tool in page.tools %}
+    <tr><td colspan='3'>{{ tool }}</td></tr>
+{% endfor %}{% endif %}
+</table>

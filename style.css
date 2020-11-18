@@ -85,6 +85,10 @@ table.ingredients {
 	margin: auto;
 }
 
+#IngredientsClone table.ingredients {
+	margin: 0;
+}
+
 table.ingredients tr {
 	border-bottom: 1px solid var(--background-color);
 }

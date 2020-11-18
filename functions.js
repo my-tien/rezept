@@ -5,8 +5,6 @@ const amounts = document.getElementsByClassName('amount');
 var collapsed = true;
 
 function init() {
-	cloneIngredients();
-
 	for (let multiplicator of multiplicators) {
 		multiplicator.addEventListener('click', function(e) {
 			if (e.target === multiplicators[1]) {
@@ -20,12 +18,6 @@ function init() {
 	}
 
 	multiplyIngredients(multiplicators[0]);
-}
-
-function cloneIngredients() {
-	let ingredientsTable = ingredients.firstElementChild;
-	let ingredientsTableClone = ingredientsTable.cloneNode(true);
-	ingredientsClone.appendChild(ingredientsTableClone);
 }
 
 function multiplyIngredients(multiplicator) {
