@@ -5,24 +5,22 @@
 		<meta charset='UTF-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 		<link rel='stylesheet' href='style.css'>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Vollkorn:wght@600&display=swap" rel="stylesheet"> 
 	</head>
 	<body onload='init()'>
 		<header id='{{ page.title }}'>
-			<div class='gradient'>
-				<img src='{{ page.header_image | relative_url }}'>
-			</div>
-			<div class='headertext'>
-				<h1>{{ page.title }}</h1>
-				<dl>
-					<dt><svg><use href='images/icons.svg#stopwatch'></use></svg></dt><dd>{{ page.duration | date: '%H:%M' }} h</dd>
-					<dt><svg><use href='images/icons.svg#servings'></use></svg></dt><dd>{{ page.servings }}</dd>
-				</dl>
-			</div>
+			<div class='headertext'><h1>{{ page.title }}</h1></div>
+			<img src='{{ page.header_image | relative_url }}'>
+			<dl>
+				<div title='Zeitaufwand'><dt><svg><use href='images/icons.svg#stopwatch'></use></svg></dt><dd>{{ page.duration | date: '%H:%M' }} h</dd></div>
+				<div title='Portionen'><dt><svg><use href='images/icons.svg#servings'></use></svg></dt><dd>{{ page.servings }}</dd></div>
+			</dl>
 	</header>
 	<div class='content'>
 	<div class='separator'></div>
 	<div id='Ingredients'>
-		<table>
+		<table class='ingredients'>
             <tr><th colspan='3'>Zutaten <input type='number' class='portions' value='1' min='0' step='any' lang='en'></th></tr>
 		{% for ingredients in page.ingredient_list %}
 		{% assign section = ingredients[0] %}
@@ -36,14 +34,19 @@
 				{% endif %}
 			{% endfor %}
 		{% endfor %}
+		</table>
+		<table>
 			<tr><th colspan='3'>Zubehör</th></tr>
-		{% if page.tools %}{% for tool in page.tools %}
-			<tr><td colspan='3'>{{ tool }}</td></tr>
-		{% endfor %}{% endif %}
+			{% if page.tools %}{% for tool in page.tools %}
+				<tr><td colspan='3'>{{ tool }}</td></tr>
+			{% endfor %}{% endif %}
+		</table>
+		<table>
 		{% if page.oven_instructions %}
 			<tr><th colspan='3'><svg><use href='images/icons.svg#oven'></use></svg>Backzeit</th></tr>
 			<tr><td colspan='3'>{{ page.oven_instructions }}</td></tr>
 		{% endif %}
+		</table>
 	</table>
 </div>
 

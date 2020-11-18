@@ -1,6 +1,8 @@
 :root {
-	--border_color: rgb(218, 226, 233);
+	--accent-color: #ffd300;
 	--line_height: 1.5;
+	--background-color: #f0ead6;
+	background-color: var(--background-color);
 }
 * {
 	margin: 0;
@@ -16,7 +18,7 @@ div.separator {
 div.separator::before {
 	position: absolute;
 	height: 2px;
-	background-color: var(--border_color);
+	background-color: var(--accent-color);
 	opacity: 0.5;
 	top: calc(50% - 1px);
 	left: 25%;
@@ -30,7 +32,7 @@ div.separator::after {
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
 	background-color: #ffffff;
-	color: var(--border_color);
+	color: var(--accent-color);
 	content: '❋';
 }
 
@@ -52,32 +54,16 @@ dd {
 }
 
 header {
-	position:relative;
-}
-
-header > div.headertext {
-	color: #ffffff;
 	position: relative;
 	text-align: center;
 	padding: 5em;
 }
- 
-div.gradient {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100%;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 80%);
-}
 
-div.gradient > img {
-	object-fit: cover;
-	pointer-events: none;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
+header > div.headertext {
+	font-family: 'Vollkorn', serif;
+}
+header img {
+	width: 75%;
 }
 
 header svg {
@@ -91,8 +77,36 @@ input {
 
 table {
 	border-collapse: collapse;
-	border: 1px solid var(--border_color);
 	width: 100%;
+}
+
+table.ingredients {
+	width: auto;
+	margin: auto;
+}
+
+table.ingredients tr {
+	border-bottom: 1px solid var(--background-color);
+}
+
+table.ingredients th {
+	background-color: var(--background-color);
+}
+
+td, th {
+	text-align: left;
+	padding: 8px;
+	vertical-align: middle;
+}
+
+td.amount {
+	text-align: right;
+}
+
+th > svg {
+	width: 1rem;
+	height: 1rem;
+	margin-right: 0.5em;
 }
 
 #IngredientsClone {
@@ -105,22 +119,6 @@ table {
 	overflow-y: auto;
 	transform: translateX(-100%) translateX(1.5rem);
 	transition: 0.25s;
-}
-
-td, th {
-	text-align: left;
-	padding: 8px;
-	vertical-align: middle;
-}
-
-tr:nth-child(even) {
-	background-color: var(--border_color);
-}
-
-th > svg {
-	width: 1rem;
-	height: 1rem;
-	margin-right: 0.5em;
 }
 
 figure {
@@ -138,6 +136,11 @@ figure.instruction figcaption {
 body {
 	overflow-wrap: break-word;
 	line-height: var(--line_height);
+	max-width: 1000px;
+	margin: auto;
+	background-color: white;
+	background-clip: content-box;
+	font-family: 'Lato', san-serif;
 }
 
 .content {
@@ -155,7 +158,7 @@ ul li {
 }
 ul li::before {
 	content: '❧';
-	color: var(--border_color);
+	color: var(--accent-color);
 	opacity: 1;
 	position: absolute;
 	left: -1.4em;
