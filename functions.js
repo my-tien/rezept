@@ -41,9 +41,9 @@ document.addEventListener('scroll', function(e) {
 
 function toggleSideBar() {
 	if (collapsed) {
-		ingredientsClone.style.transform = 'translateX(0%)';
+		ingredientsClone.classList.add('visible');
 	} else {
-		ingredientsClone.style.transform = 'translateX(-100%) translateX(1.5rem)';
+		ingredientsClone.classList.remove('visible');
 	}
 	collapsed = !collapsed;
 }

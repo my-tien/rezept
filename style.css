@@ -85,12 +85,9 @@ table.ingredients {
 	margin: auto;
 }
 
-#IngredientsClone table.ingredients {
-	margin: 0;
-}
-
 table.ingredients tr {
 	border-bottom: 1px solid var(--background-color);
+	background-color: white;
 }
 
 table.ingredients th {
@@ -116,13 +113,30 @@ th > svg {
 #IngredientsClone {
 	position: fixed;
 	visibility: hidden;
-	background-color: white;
+	background-color: transparent;
 	max-height: 100%;
-	bottom: 0px;
-	left: 0px;
-	overflow-y: auto;
-	transform: translateX(-100%) translateX(1.5rem);
+	bottom: 0;
+	left: 0;
+	transform: translateX(-100%) translateX(2.5rem);
 	transition: 0.25s;
+	display: flex;
+	align-items: flex-end;
+}
+
+#IngredientsClone.visible {
+	transform: translateX(0%);
+}
+
+#IngredientsClone table.ingredients {
+	cursor: pointer;
+	margin: 0;
+}
+
+#arrow {
+	cursor: pointer;
+	font-size: 3rem;
+	color: var(--accent-color);
+	background-color: white;
 }
 
 figure {
