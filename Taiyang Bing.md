@@ -5,7 +5,7 @@ duration: 2:00 h
 servings: 12
 header_image: /images/Taiyang Bing.jpg
 ingredient_list:
-    Wassewrteig:
+    Wasserteig:
         - [135, 'g', 'Mehl Type 405 (gesiebt)']
         - [25, 'ml', 'Heißes Wasser']
         - [33, 'g', 'Puderzucker (gesiebt)']
