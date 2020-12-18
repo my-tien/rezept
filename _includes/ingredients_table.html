@@ -16,8 +16,10 @@
     <tr><th colspan='3'><svg><use href='images/icons.svg#oven'></use></svg>Backzeit</th></tr>
     <tr><td colspan='3'>{{ page.oven_instructions }}</td></tr>
 {% endif %}
+{% if page.tools %}
 <tr><th colspan='3'>Zubehör</th></tr>
-{% if page.tools %}{% for tool in page.tools %}
+{% for tool in page.tools %}
     <tr><td colspan='3'>{{ tool }}</td></tr>
-{% endfor %}{% endif %}
+{% endfor %}
+{% endif %}
 </table>
