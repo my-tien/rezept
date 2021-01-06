@@ -1,6 +1,7 @@
 :root {
-	--accent-color: #ffd300;
 	--line_height: 1.5;
+	--accent-color: #ffd300;
+	--text-color: #3c3c3c;
 	--background-color: #f0ead6;
 	background-color: var(--background-color);
 }
@@ -36,6 +37,19 @@ div.separator::after {
 	content: '❋';
 }
 
+header {
+	position: relative;
+	text-align: center;
+	padding: 5em;
+	font-family: 'Vollkorn', serif;
+}
+
+header > #Home {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+}
+
 dl {
 	margin-top: 2em;
 }
@@ -51,23 +65,9 @@ dt {
 dd {
 	font-weight: bold;
 	margin-right: 2em;
+	font-family: 'Lato', sans-serif;
 }
 
-header {
-	position: relative;
-	text-align: center;
-	padding: 5em;
-}
-
-header > #Home {
-	position: absolute;
-	top: 1rem;
-	left: 1rem;
-}
-
-header > div.headertext {
-	font-family: 'Vollkorn', serif;
-}
 header img {
 	width: 75%;
 }
@@ -164,26 +164,46 @@ body {
 	margin: auto;
 	background-color: white;
 	background-clip: content-box;
+	color: var(--text-color);
 	font-family: 'Lato', san-serif;
 }
 
 .content {
-	padding: 1.5rem;
+	padding: 2rem;
 }
 
 #Instructions  {
 	margin: 0 0 0 2.5em;
 }
-ul li {
+#Instructions ul li {
 	margin-top: 1.25em;
 	margin-bottom: 1.25em;
 	list-style: none;
 	position: relative;
 }
-ul li::before {
+#Instructions ul li::before {
 	content: '❧';
 	color: var(--accent-color);
 	opacity: 1;
 	position: absolute;
 	left: -1.4em;
+}
+
+ul.toc li {
+    list-style: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+ul.toc li+li {
+    border-top: 1px solid var(--background-color);
+}
+
+
+a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+a::visited {
+	color: inherit;
 }
