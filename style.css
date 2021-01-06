@@ -193,6 +193,13 @@ ul.toc li {
     list-style: none;
     padding-top: 1em;
     padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.toc li time {
+    margin-left: 1em;
+    opacity: .6;
 }
 
 ul.toc li+li {

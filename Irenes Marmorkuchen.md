@@ -1,6 +1,7 @@
 ---
 layout: template
 title: Irenes Marmorkuchen
+date: 2020-12-18
 duration: 4:00 h
 servings: 1
 header_image: /images/Irenes Marmorkuchen.jpg

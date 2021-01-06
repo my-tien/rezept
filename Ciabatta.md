@@ -1,6 +1,7 @@
 ---
 layout: template
 title: Ciabatta
+date: 2020-10-14
 duration: 4:00 h
 servings: 1
 header_image: /images/Ciabatta.jpg

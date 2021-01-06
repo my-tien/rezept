@@ -1,6 +1,7 @@
 ---
 layout: template
 title: Römertopf-Brot
+date: 2020-12-06
 duration: 3:30 h
 servings: 1
 header_image: /images/Römertopf-Brot.jpg

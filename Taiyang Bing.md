@@ -1,6 +1,7 @@
 ---
 layout: template
 title: 太陽餅 (Tàiyáng Bǐng/Sonnenkuchen)
+date: 2020-10-25
 duration: 2:00 h
 servings: 12
 header_image: /images/Taiyang Bing.jpg

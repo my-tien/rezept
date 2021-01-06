@@ -1,6 +1,7 @@
 ---
 layout: template
 title: Saftiges Karotten-Vollkornbrot mit Sonnenblumenkernen
+date: 2020-11-15
 duration: 1:30 h
 servings: 1
 header_image: /images/Saftiges Karotten-Vollkornbrot mit Sonnenblumenkernen.jpg
