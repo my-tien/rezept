@@ -165,7 +165,7 @@ body {
 	background-color: white;
 	background-clip: content-box;
 	color: var(--text-color);
-	font-family: 'Lato', san-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .content {
