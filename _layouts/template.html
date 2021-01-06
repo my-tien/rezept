@@ -12,6 +12,7 @@
 		<header id='{{ page.title }}'>
 			<div class='headertext'><h1>{{ page.title }}</h1></div>
 			<img src='{{ page.header_image | relative_url }}'>
+			<a id='Home' href='{% link index.html %}'><svg><use href='images/icons.svg#home'></use></svg></a>
 			<dl>
 				<div title='Zeitaufwand'><dt><svg><use href='images/icons.svg#stopwatch'></use></svg></dt><dd>{{ page.duration | date: '%H:%M' }} h</dd></div>
 				<div title='Portionen'><dt><svg><use href='images/icons.svg#servings'></use></svg></dt><dd>{{ page.servings }}</dd></div>

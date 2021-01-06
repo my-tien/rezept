@@ -59,6 +59,12 @@ header {
 	padding: 5em;
 }
 
+header > #Home {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+}
+
 header > div.headertext {
 	font-family: 'Vollkorn', serif;
 }
