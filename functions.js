@@ -23,7 +23,8 @@ function init() {
 function multiplyIngredients(multiplicator) {
 	multiplicators[Number(multiplicator === multiplicators[0])].value = multiplicator.value;
 	for (let i = 0; i < amounts.length; ++i) {
-		amounts[i].textContent = Number(amounts[i].getAttribute('base')) * Number(multiplicator.value);
+		let number = (Number(amounts[i].getAttribute('base')) * Number(multiplicator.value));
+		amounts[i].textContent = number.toFixed(!Number.isInteger(number) * 2);
 	}
 }
 
