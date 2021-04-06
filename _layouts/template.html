@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="de">
-	<head>
-		<title>{{ page.title }}</title>
-		<meta charset='UTF-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-		<link rel='stylesheet' href='style.css'>
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Vollkorn:wght@600&display=swap" rel="stylesheet"> 
-	</head>
-	<body onload='init()'>
-		<header id='{{ page.title }}'>
-			<div class='headertext'><h1>{{ page.title }}</h1></div>
-			<img src='{{ page.header_image | relative_url }}'>
-			<a id='Home' href='{% link index.html %}'><svg><use href='images/icons.svg#home'></use></svg></a>
-			<dl>
-				<div title='Zeitaufwand'><dt><svg><use href='images/icons.svg#stopwatch'></use></svg></dt><dd>{{ page.duration | date: '%H:%M' }} h</dd></div>
-				<div title='Portionen'><dt><svg><use href='images/icons.svg#servings'></use></svg></dt><dd>{{ page.servings }}</dd></div>
-			</dl>
+<head>
+	<title>{{ page.title }}</title>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<link rel='stylesheet' href='style.css'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Vollkorn:wght@600&display=swap" rel="stylesheet"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body onload='init()'>
+	<header id='{{ page.title }}' class='container'>
+		<nav>
+			<a id='Home' href='{% link index.html %}'><svg><use href='images/icons.svg#home'></use></svg> Home</a>
+			<a id='Home' href='#Ingredients'>Zutaten</a>
+			<a id='Home' href='#Instructions'>Anweisungen</a>
+		</nav>
+		
+		<h1>{{ page.title }} <span title='Zeitaufwand' class='title-info'>(<svg><use href='images/icons.svg#stopwatch'></use></svg> {{ page.duration | date: '%H:%M' }} h)</span></h1>
+		{% if page.story %}
+		<p class='story'>{{page.story}}</p>
+		{% endif %}
+		<img src='{{ page.header_image | relative_url }}' class='hero'>
 	</header>
-	<div class='content'>
-	<div class='separator'></div>
+
 	<div id='Ingredients'>
+		<div class='container ingredient-container'>
 		{% include ingredients_table.html %}
-</div>
+		</div>
+	</div>
 
-<div class='separator'></div>
+	<div class='content container'>
 
-<div id='Instructions'>
-	{{ content }}
-</div>
-<div class='separator'></div>
-<div id='IngredientsClone' onclick='toggleSideBar()'>{% include ingredients_table.html %}<div id='arrow'>❧</div></div>
+		<div id='Instructions'>
+			{{ content }}
+		</div>
+		<hr>
+		<div id='IngredientsClone' onclick='toggleSideBar()'>{% include ingredients_table.html %}<div id='arrow'>></div></div>
 
-<div style='text-align: right; font-size: xx-small;'>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-</div>
- <script src="functions.js"></script> 
+		<div style='text-align: right; font-size: xx-small;'>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	</div>
+
+	<script src="functions.js"></script> 
 </body>
 </html>
