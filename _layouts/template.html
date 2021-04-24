@@ -19,7 +19,7 @@
 			<a id='Home' href='#Instructions'>Anweisungen</a>
 		</nav>
 		
-		<h1>{{ page.title }} <span title='Zeitaufwand' class='title-info'>(<svg><use href='images/icons.svg#stopwatch'></use></svg> {{ page.duration | date: '%H:%M' }} h)</span></h1>
+		<h1>{{ page.title }} <span title='Zeitaufwand' class='title-info'><nobr>(<svg><use href='images/icons.svg#stopwatch'></use></svg> {{ page.duration | date: '%H:%M' }} h)</nobr></span></h1>
 		{% if page.story %}
 		<p class='story'>{{page.story}}</p>
 		{% endif %}
