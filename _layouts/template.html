@@ -14,9 +14,9 @@
 <body onload='init()'>
 	<header id='{{ page.title }}' class='container'>
 		<nav>
-			<a id='Home' href='{% link index.html %}'><svg><use href='images/icons.svg#home'></use></svg> Home</a>
-			<a id='Home' href='#Ingredients'>Zutaten</a>
-			<a id='Home' href='#Instructions'>Anweisungen</a>
+			<a id='Home' href='{{ site.url }}{% link index.html %}'><svg><use href='images/icons.svg#home'></use></svg> Alle Rezepte</a>
+			<a href='#Ingredients'>Zutaten</a>
+			<a href='#Instructions'>Anweisungen</a>
 		</nav>
 		
 		<h1>{{ page.title }} <span title='Zeitaufwand' class='title-info'><nobr>(<svg><use href='images/icons.svg#stopwatch'></use></svg> {{ page.duration | date: '%H:%M' }} h)</nobr></span></h1>
