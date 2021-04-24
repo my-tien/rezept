@@ -15,6 +15,7 @@ ingredient_list:
           - [400, 'g', 'Mehl Type 00 oder 550']
           - [2, 'TL', 'Salz']
 oven_instructions: 210°C Ober-/Unterhitze, 33 Minuten
+story: Dieses Sauerteigbrot mit 70% Hydration für Brotback-Einsteiger wird am Vorabend vorbereitet und am darauffolgenden Abend gebacken. Am Back-Abend sollten ca. 2 h für das Kneten und backen eingeplant werden.
 ---
 
 - Vorteig-Zutaten vor dem zu Bett gehen vermengen und bei Raumtemperatur bis zur Verdoppelung stehen lassen (8 – 12 h).
