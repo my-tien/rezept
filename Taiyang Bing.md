@@ -5,6 +5,7 @@ date: 2020-10-25
 duration: 2:00 h
 servings: 12
 header_image: /images/Taiyang Bing.jpg
+story: Leider kommt dieses Rezept noch nicht an das taiwanesische Original heran.
 ingredient_list:
     Wasserteig:
         - [135, 'g', 'Mehl Type 405 (gesiebt)']

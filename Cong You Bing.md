@@ -5,6 +5,7 @@ date: 2021-01-06
 duration: 1:00 h
 servings: 2
 header_image: /images/Cong You Bing.jpg
+story: Ein taiwanesisches Street-Food für Fans von knusprigem Teig.
 ingredient_list:
     '':
           - [400, 'g', 'Mehl Type 405 12% Protein']

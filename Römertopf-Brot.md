@@ -5,6 +5,7 @@ date: 2020-12-06
 duration: 3:30 h
 servings: 1
 header_image: /images/Römertopf-Brot.jpg
+story: Dieses Brot verlangt abgesehen von ein wenig Geduld nur wenige sehr leichte Arbeitsschritte und schmeckt trotzdem ordentlich.
 ingredient_list:
     '':
           - [500, 'g', 'Mehl, verschiedene nach Belieben']

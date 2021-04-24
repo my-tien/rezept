@@ -5,6 +5,7 @@ date: 2020-12-18
 duration: 4:00 h
 servings: 1
 header_image: /images/Irenes Marmorkuchen.jpg
+story: Dieser Marmorkuchen ist nicht zu süß und hat durch die Bittermandel ein feines Aroma.
 ingredient_list:
     '':
           - [250, 'g', 'Butter']

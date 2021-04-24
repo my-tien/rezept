@@ -5,6 +5,7 @@ date: 2020-11-15
 duration: 1:30 h
 servings: 1
 header_image: /images/Saftiges Karotten-Vollkornbrot mit Sonnenblumenkernen.jpg
+story: Mit anderthalb Stunden ein sehr schnelles Brot. Die Krume ist weich und saftig, die Kerne geben einen gewissen Biss. Es passt sowohl zu herzhaften als auch süßen Belägen.
 ingredient_list:
    '':
       - [125, 'g', 'Karotten']
@@ -27,7 +28,7 @@ oven_instructions:
 ---
 
 - Lauwarme Buttermilch, Hefe und Zucker verrühren und 10 Minuten stehen lassen.
-- Karotten schälen und fein raspeln.
+- Währenddessen Karotten schälen und fein raspeln.
 - Alle restlichen Zutaten vermengen und mit den Karotten vermischen.
 - Buttermilch nach und nach dazugeben und den Teig verkneten.
 - Teig in die Kastenform mit Dauerbackfolie geben. Dabei darauf achten, dass kein Teig die Kastenform berührt.
