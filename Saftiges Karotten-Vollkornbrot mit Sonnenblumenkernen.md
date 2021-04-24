@@ -33,7 +33,7 @@ oven_instructions:
 - Teig in die Kastenform mit Dauerbackfolie geben. Dabei darauf achten, dass kein Teig die Kastenform berührt.
 - 30 Minuten ruhen lassen.
 - Brot mit Wasser benetzen und mit Sonneblumenkernen und/oder Kürbiskernen bestreuen.
-- 15 Minuten ohone Vorheizen bei 220°C Ober-/Unterhitze backen.
+- 15 Minuten ohne Vorheizen bei 220°C Ober-/Unterhitze backen.
 - Auf 190°C stellen und weitere 20 Minuten backen.
 - Brot aus der Kastenform entnehmen und weitere 15 Minuten bei 190°C zu Ende backen.
 - <a href='https://wiewowasistgut.com/karotten-vollkornbrot-reinert-herzenssache/'>Quelle</a>
