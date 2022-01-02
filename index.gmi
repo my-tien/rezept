@@ -1,0 +1,59 @@
+```ASCII art: The German Bakery sign-post
+  /###           /  /                          # ###                                                                       ##### ##                /                                          
+ /  ############/ #/                         /  /###  /                                                                 ######  /##              #/                                           
+/     #########   ##                        /  /  ###/                                                                 /#   /  / ##              ##                                           
+#     /  #        ##                       /  ##   ##                                                                 /    /  /  ##              ##                                           
+ ##  /  ##        ##                      /  ###                                                                          /  /   /               ##                                           
+    /  ###        ##  /##      /##       ##   ##            /##  ###  /###   ### /### /###     /###   ###  /###          ## ##  /        /###    ##  /##      /##  ###  /###   ##   ####      
+   ##   ##        ## / ###    / ###      ##   ##   ###     / ###  ###/ #### / ##/ ###/ /##  / / ###  / ###/ #### /       ## ## /        / ###  / ## / ###    / ###  ###/ #### / ##    ###  /  
+   ##   ##        ##/   ###  /   ###     ##   ##  /###  / /   ###  ##   ###/   ##  ###/ ###/ /   ###/   ##   ###/        ## ##/        /   ###/  ##/   /    /   ###  ##   ###/  ##     ###/   
+   ##   ##        ##     ## ##    ###    ##   ## /  ###/ ##    ### ##          ##   ##   ## ##    ##    ##    ##         ## ## ###    ##    ##   ##   /    ##    ### ##         ##      ##    
+   ##   ##        ##     ## ########     ##   ##/    ##  ########  ##          ##   ##   ## ##    ##    ##    ##         ## ##   ###  ##    ##   ##  /     ########  ##         ##      ##    
+    ##  ##        ##     ## #######       ##  ##     #   #######   ##          ##   ##   ## ##    ##    ##    ##         #  ##     ## ##    ##   ## ##     #######   ##         ##      ##    
+     ## #      /  ##     ## ##             ## #      /   ##        ##          ##   ##   ## ##    ##    ##    ##            /      ## ##    ##   ######    ##        ##         ##      ##    
+      ###     /   ##     ## ####    /       ###     /    ####    / ##          ##   ##   ## ##    /#    ##    ##        /##/     ###  ##    /#   ##  ###   ####    / ##         ##      ##    
+       ######/    ##     ##  ######/         ######/      ######/  ###         ###  ###  ### ####/ ##   ###   ###      /  ########     ####/ ##  ##   ### / ######/  ###         #########    
+         ###       ##    ##   #####            ###         #####    ###         ###  ###  ### ###   ##   ###   ###    /     ####        ###   ##  ##   ##/   #####    ###          #### ###   
+                         /                                                                                            #                                                                  ###  
+                        /                                                                                              ##                                                         #####   ### 
+                       /                                                                                                                                                        /#######  /#  
+                      /                                                                                                                                                        /      ###/    
+```
+
+Welcome to the bakery!
+
+The smell of freshly baked bread hangs in the air and the walls are lined with bread and pastries.
+
+# Recipes
+
+Between breadcrumbs and oven mittens lies an open book full of German recipes:
+
+## Backwaren
+
+=> /bakery/backwaren/ciabatta Ciabatta (2020-10-14)
+=> /bakery/backwaren/dinkel-roggen-sauerteigbrot Dinkel-Roggen-Sauerteigbrot (2021-07-09)
+=> /bakery/backwaren/panini Panini (2021-03-30)
+=> /bakery/backwaren/reines-dinkel-sauerteigbrot Reines Dinkel-Sauerteigbrot (2020-04-19)
+=> /bakery/backwaren/roemertopf-brot Römertopf-Brot (2020-12-06)
+=> /bakery/backwaren/saftiges-karotten-vollkornbrot-mit-sonnenblumenkernen Saftes Karotten-Vollkornbrot mit Sonnenblumenkernen (2020-11-15)
+
+## Süßgebäck
+
+=> /bakery/suessgebaeck/blaubeer-muffins Blaubeer-Muffins (2021-07-10)
+=> /bakery/suessgebaeck/doubletree-chocolate-chip-cookies DoubleTree Chocolate-Chip Cookies (2021-12-30)
+=> /bakery/suessgebaeck/himbeerrolle Himbeerrolle (2021-07-12)
+=> /bakery/suessgebaeck/irenes-marmorkuchen Irenes Marmorkuchen (2020-12-18)
+=> /bakery/suessgebaeck/jennys-sesam-mandel-kekse Jennys Sesam-Mandel-Kekse (2021-04-24)
+=> /bakery/suessgebaeck/vanillekipferl Vanillekipferl (2021-12-18)
+
+=> /bakery/last-page Last page
+
+## The German Bakery
+
+Opening hours:
+Every day
+07:00 to 01:00
+
+A note on the wall kindly asks you not to touch any goods if you don’t intend to eat them.
+
+=> / Leave the bakery.

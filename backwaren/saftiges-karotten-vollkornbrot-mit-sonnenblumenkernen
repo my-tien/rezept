@@ -1,0 +1,42 @@
+#!/home/pi/python/bin/python
+head='''
+title: Saftiges Karotten-Vollkornbrot mit Sonnenblumenkernen
+duration: 1:30 h
+story: Mit anderthalb Stunden ein sehr schnelles Brot. Die Krume ist weich und saftig, die Kerne geben einen gewissen Biss. Es passt sowohl zu herzhaften als auch süßen Belägen. Ergibt ein Kastenbrot.
+ingredients:
+   Für den Teig:
+      - [125, g, Karotten]
+      - [25, g, Hefe]
+      - [1, TL, Zucker]
+      - [500, g, Buttermilch]
+      - [150, g, Weizenvollkornmehl]
+      - [200, g, Dinkelvollkornmehl]
+      - [160, g, Weizenmehl Type 550]
+      - [2, TL, Salz]
+      - [75, g, Sonnenblumenkerne und/oder Kürbiskerne]
+      - [40, g, Leinsamen]
+   Zum Bestreuen:
+      - [Sonnenblumenkerne und/oder Kürbiskerne]
+tools:
+   - Dauerbackfolie für Kastenform
+   - Kastenform
+oven_instructions:
+   ohne Vorheizen 15 Minuten 220°C Ober-/Unterhitze → 20 Minuten 190°C → 15 Minuten ohne Kastenform 190°C
+'''
+
+instructions='''
+* Lauwarme Buttermilch, Hefe und Zucker verrühren und 10 Minuten stehen lassen.
+* Währenddessen Karotten schälen und fein raspeln.
+* Alle restlichen Zutaten vermengen und mit den Karotten vermischen.
+* Buttermilch nach und nach dazugeben und den Teig verkneten.
+* Teig in die Kastenform mit Dauerbackfolie geben. Dabei darauf achten, dass kein Teig die Kastenform berührt.
+* 30 Minuten ruhen lassen.
+* Brot mit Wasser benetzen und mit Sonneblumenkernen und/oder Kürbiskernen bestreuen.
+* 15 Minuten ohne Vorheizen bei 220°C Ober-/Unterhitze backen.
+* Auf 190°C stellen und weitere 20 Minuten backen.
+* Brot aus der Kastenform entnehmen und weitere 15 Minuten bei 190°C zu Ende backen.
+* Quelle: https://wiewowasistgut.com/karotten-vollkornbrot-reinert-herzenssache/
+'''
+
+from recipe_site_generator.gemtext_recipe import print_recipe
+print_recipe(head, instructions, '/bakery/images/saftiges-karotten-vollkornbrot-mit-sonnenblumenkernen.jpg')
