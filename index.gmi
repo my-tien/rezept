@@ -30,6 +30,7 @@ Between breadcrumbs and oven mittens lies an open book full of German recipes:
 
 ## Backwaren
 
+=> /bakery/backwaren/alpenroggen-mischbrot Alpenroggen-Mischbrot (2022-01-04)
 => /bakery/backwaren/ciabatta Ciabatta (2020-10-14)
 => /bakery/backwaren/dinkel-roggen-sauerteigbrot Dinkel-Roggen-Sauerteigbrot (2021-07-09)
 => /bakery/backwaren/panini Panini (2021-03-30)
