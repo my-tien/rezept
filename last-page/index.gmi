@@ -4,6 +4,7 @@ Curiously, on the last page of the bakery’s recipe book is a list of recipes t
 
 # More recipes
 
+=> /bakery/last-page/banh-cu-cai           – Bánh Củ Cải/Vietnamesischer Rettichkuchen (2022-05-30)
 => /bakery/last-page/cong-you-bing         – Cōng Yóu Bǐng/Lauchzwiebel-Öl-Pfannkuchen (2021-01-06)
 => /bakery/last-page/do-chua               – Đồ Chua/Sauer eingelegter Rettich und Karotte (2022-05-21)
 => /bakery/last-page/tai-yang-bing         – Tàiyáng Bǐng/Sonnenkuchen (2020-10-25)
