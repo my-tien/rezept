@@ -5,6 +5,7 @@ Curiously, on the last page of the bakery’s recipe book is a list of recipes t
 # More recipes
 
 => /bakery/last-page/cong-you-bing 蔥油餅 – Cōng Yóu Bǐng/Lauchzwiebel-Öl-Pfannkuchen (2021-01-06)
+=> /bakery/last-page/do-chua 蔥油餅       – Đồ Chua/Sauer eingelegter Rettich und Karotte (2022-05-21)
 => /bakery/last-page/tai-yang-bing 太陽餅 – Tàiyáng Bǐng/Sonnenkuchen (2020-10-25)
-=> /bakery/last-page/yu-xiang-qie-zi 鱼香茄子 – Yú Xiāng Qié Zi/Fisch-duftende-Aubergine (2021-11-30)
+=> /bakery/last-page/yu-xiang-qie-zi 鱼香– Yú Xiāng Qié Zi/Fisch-duftende-Aubergine (2021-11-30)
 => /bakery Close the book
