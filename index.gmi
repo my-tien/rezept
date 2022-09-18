@@ -44,6 +44,7 @@ Between breadcrumbs and oven mittens lies an open book full of German recipes:
 => /bakery/suessgebaeck/blaubeer-muffins Blaubeer-Muffins (2021-07-10)
 => /bakery/suessgebaeck/doubletree-chocolate-chip-cookies DoubleTree Chocolate-Chip Cookies (2021-12-30)
 => /bakery/suessgebaeck/himbeerrolle Himbeerrolle (2021-07-12)
+=> /bakery/suessgebaeck/hildes-zwetschgenkuchen-mit-zimtstreuseln Hildes Zwetschgenkuchen mit Zimtstreuseln (2022-03-00)
 => /bakery/suessgebaeck/irenes-marmorkuchen Irenes Marmorkuchen (2020-12-18)
 => /bakery/suessgebaeck/jennys-sesam-mandel-kekse Jennys Sesam-Mandel-Kekse (2021-04-24)
 => /bakery/suessgebaeck/vanillekipferl Vanillekipferl (2021-12-18)
