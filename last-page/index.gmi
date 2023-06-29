@@ -7,6 +7,7 @@ Curiously, on the last page of the bakery’s recipe book is a list of recipes t
 => /bakery/last-page/banh-cu-cai           – Bánh Củ Cải/Vietnamesischer Rettichkuchen (2022-05-30)
 => /bakery/last-page/cong-you-bing         – Cōng Yóu Bǐng/Lauchzwiebel-Öl-Pfannkuchen (2021-01-06)
 => /bakery/last-page/do-chua               – Đồ Chua/Sauer eingelegter Rettich und Karotte (2022-05-21)
+=> /bakery/last-page/suong-sa              – Sương Sa/Vietnamesischer Wackelpudding (2023-06-29)
 => /bakery/last-page/tai-yang-bing         – Tàiyáng Bǐng/Sonnenkuchen (2020-10-25)
 => /bakery/last-page/thit-chung-trung-muoi – Thịt Chưng Trứng Muối/Vietnamesische Fleischpastete mit salzigen Eiern (2022-05-21)
 => /bakery/last-page/yu-xiang-qie-zi       – Yú Xiāng Qié Zi/Fisch-duftende-Aubergine (2021-11-30)
