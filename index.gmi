@@ -37,7 +37,7 @@ Between breadcrumbs and oven mittens lies an open book full of German recipes:
 => /bakery/backwaren/panini Panini (2021-03-30)
 => /bakery/backwaren/reines-dinkel-sauerteigbrot Reines Dinkel-Sauerteigbrot (2020-04-19)
 => /bakery/backwaren/roemertopf-brot Römertopf-Brot (2020-12-06)
-=> /bakery/backwaren/saftiges-karotten-vollkornbrot-mit-sonnenblumenkernen Saftes Karotten-Vollkornbrot mit Sonnenblumenkernen (2020-11-15)
+=> /bakery/backwaren/saftiges-karotten-vollkornbrot-mit-sonnenblumenkernen Saftiges Karotten-Vollkornbrot mit Sonnenblumenkernen (2020-11-15)
 
 ## Süßgebäck
 
@@ -48,6 +48,7 @@ Between breadcrumbs and oven mittens lies an open book full of German recipes:
 => /bakery/suessgebaeck/hildes-zwetschgenkuchen-mit-zimtstreuseln Hildes Zwetschgenkuchen mit Zimtstreuseln (2022-03-00)
 => /bakery/suessgebaeck/irenes-marmorkuchen Irenes Marmorkuchen (2020-12-18)
 => /bakery/suessgebaeck/jennys-sesam-mandel-kekse Jennys Sesam-Mandel-Kekse (2021-04-24)
+=> /bakery/suessgebaeck/saftiger-nusskuchen-mit-zimtglasur Saftiger Nusskuchen mit Zimtglasur (2023-07-02)
 => /bakery/suessgebaeck/vanillekipferl Vanillekipferl (2021-12-18)
 
 => /bakery/last-page Last page
