@@ -40,4 +40,4 @@ instructions='''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, '/bakery/images/saftiger-nusskuchen-mit-zimtglasur-baklava-schneiden.png')
+print_recipe(head, instructions, additional_image_url_paths={'An image of Anschneide-Trick': '/bakery/images/saftiger-nusskuchen-mit-zimtglasur-baklava-schneiden.png'})
