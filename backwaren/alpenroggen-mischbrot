@@ -5,17 +5,17 @@ duration: ca. 13 h Sauerteig, 50 Minuten Stückgare, insgesamt ca. 15 h.
 story: 'Würzig aromatisches Alpenroggenmehl trifft auf kleberstarkes Ciabattamehl. Ergibt ein würziges Brot mit elastischer und saftiger Krume. TA 182. Ergibt ca. 400g Brot.'
 ingredients:
      Sauerteig:
-          - [12.5, g, Anstellgut]
-          - [125, g, Roggenvollkornmehl]
-          - [125, g, Wasser (45°C)]
+          - [18.8, g, Anstellgut]
+          - [188, g, Roggenvollkornmehl]
+          - [188, g, Wasser (45°C)]
      Hauptteig:
           - [Sauerteig]
-          - [120, g, Alpenroggenmehl (oder Roggenmehl Type 1370)]
-          - [105, g, 'Ciabattamehl Tipe 0 mit 14% Eiweiß (oder Weizenmehl Type 550)']
-          - [7, g, Salz]
-          - [1.5, g, Trockenhefe]
-          - [7, g, Honig]
-          - [162, g, 'Wasser (40°C) (bei Verwendung von Ersatzmehlen: 138 g)']
+          - [180, g, Alpenroggenmehl (oder Roggenmehl Type 1370)]
+          - [158, g, 'Ciabattamehl Tipe 0 mit 14% Eiweiß (oder Weizenmehl Type 550)']
+          - [10.5, g, Salz]
+          - [2.25, g, Trockenhefe]
+          - [10.5, g, Honig]
+          - [243, g, 'Wasser (40°C) (bei Verwendung von Ersatzmehlen Menge mit 0.85 multiplizieren)']
 tools:
      - Gärkorb
      - Gusseisenpfanne
