@@ -1,6 +1,6 @@
 ---
 title: Blaubeer-Muffins
-story: Sehr einfach zu backen. Der Muffin ist oben knusprig und innen drin luftig, weich und saftig. Die Kruste ist etwas süßer als der Rest. Ergibt 12 Muffins.
+story: 'Sehr einfach zu backen. Der Muffin ist oben knusprig und innen drin luftig, weich und saftig. Die Kruste ist etwas süßer als der Rest. Ergibt 12 Muffins. Hinweis: Die Muffins sind relativ groß. Verwendet man zwei Drittel der Menge (und ein L Ei anstelle der 2 M Eier) ergibt das 12 kleine Muffins.'
 ingredients:
      Rührteig:
           - [125, g, Butter]
@@ -11,7 +11,7 @@ ingredients:
           - [250, g, Mehl]
           - [2, TL, Backpulver]
           - [150, ml, Buttermilch]
-          - [250, g, Blaubeeren]
+          - [250, g, dicke Blaubeeren]
      Streusel:
           - [130, g, Mehl]
           - [60, g, Zucker]
@@ -30,7 +30,7 @@ oven_instructions: 160°C Umluft, 30 Minuten
 * Zitronenschale, Mehl und Backpulver vermischen
 * Buttermilch und Mehlgemisch abwechselnd in das Buttergemisch einrühren
 * Teig mit Eisportionierer in die Muffinförmchen geben
-* In jeden Muffin 7 Blaubeeren drücken
+* In jeden Muffin 5 Blaubeeren drücken
 * Ofen auf 160°C Umluft vorheizen
 * Streuselzutaten verkneten
 * Stücke abreißen und auf den Muffins verteilen
