@@ -1,0 +1,38 @@
+---
+title: Apfeltorte mit Zimt-Sahne
+duration: 40 Minuten Arbeitszeit, 40 Minuten Backzeit und mehrere Stunden Kühlzeit
+servings: Torte 26 cm Springform
+story: Diese Apfeltorte vereint fruchtige Äpfel mit Pudding und frischer Sahne auf einem lockeren Mürbeteig.
+ingredients:
+     Boden:
+          - [250, g, Mehl Type 405]
+          - [80, g, Zucker]
+          - [1.5, TL, Backpulver]
+          - [1, Ei M]
+     Füllung:
+          - [4, große Äpfel]
+          - [600, ml, Apfelsaft]
+          - [1.5, Pk, Puddingpulver]
+          - [150, g, Zucker]
+     Sahne:
+          - [400, ml, Sahne]
+          - [2, Pk, Sahnesteif]
+          - [1, Pk, Vanillezucker]
+          - [Zimt zum Bestreuen]
+
+oven_instructions: Boden 10 Min. bei 180°C Ober-/Unterhitze, dann 30 Minuten
+---
+
+* Ofen vorheizen, Springform mit Backpapier auskleiden und Rand einfetten und bemehlen.
+* Alle Zutaten für den Boden verkneten und gleichmäßig auf dem Springformboden verteilen.
+* Den Boden 10 Minuten vorbacken.
+* Währenddessen die Äpfel schälen, entkernen, in ca. 1 cm dicke Würfel schneiden und vordünsten:
+* Dazu den Boden eines Topfes mit ein wenig Wasser bedecken, und aufkochen lassen. Dann auf mittlere Stufe stellen und die Apfelwürfel darin für 4 Minuten mit gelegentlichem Umrühren dünsten.
+* 100 ml des Apfelsafts mit dem Puddingpulver verrühren. Den übrigen Apfelsaft mit Zucker aufkochen, die Puddingmasse einrühren und unter Rühren nochmals aufkochen lassen.
+* Wenn der Pudding eingedickt ist, sofort die Hitze abstellen und die Äpfel untermischen. Anschließend die ganze Masse auf den Tortenboden geben.
+* Torte bei 180 °C 25 – 30 Minuten backen.
+* Die fertig gebackene Torte in der Springform vollständig erkalten lassen, z.B. über Nacht im Kühlschrank.
+* Springformrand kurz lösen und wieder ansetzen.
+* Die Schlagsahne steif schlagen und währenddessen Sahnesteif und Vanillezucker gleichmäßig einrieseln.
+* Die Sahne auf der Torte glatt streichen. Anschließend mit Zimt-Zucker bestäuben.
+* Quelle: https://www.backenmachtgluecklich.de/rezepte/apfeltorte.html

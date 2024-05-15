@@ -1,0 +1,46 @@
+---
+title: 鱼香茄子 – Yú xiāng qié zi
+story: Gebratenes Hackfleisch-Auberginen-Gericht mit scharfer süß-sauer-salziger Soße, allerdings deutlich fettarmer als das Original. Ergibt 2 Portionen.
+ingredients:
+     Soße:
+          - [2, EL, brauner Zucker]
+          - [2, EL, helle Sojasoße]
+          - [1, EL, dunkle Sojasoße]
+          - [2, EL, Reisessig]
+          - [1, EL, Shaoxing Reiswein]
+          - [4, EL, Wasser]
+          - [2, EL, Austernsoße]
+          - [2, TL, Maisstärke]
+          - [Bratöl]
+     Bratgut:
+          - [480, g, Aubergine (eine große Aubergine ist ca. 480g schwer)]
+          - [200, g, 'Schweinehackfleisch, ungewürzt']
+          - [3, Pepperonis]
+          - [1, Lauchzwiebel]
+          - [5, Knoblauchzehen]
+          - [14, g, Ingwer]
+          - [1, TL, Sesamöl]
+
+tools:
+     - Dampfgarvorrichtung
+---
+
+### Vorbereitung
+* Aubergine waschen, Strunk entfernen und zu ca. 1,5×6 cm Stiften schneiden.
+* Die geschnittene Aubergine ca. 15 Minuten dampfgaren, zB. mit einem Garsieb und Wasser im Kochtopf.
+* Währenddessen die restlichen Zutatenvorbereiten:
+* Das restliche Gemüse waschen.
+* Die Knoblauchzehen hacken und den Ingwer in feine Streifen schneiden. Zusammen in eine Schüssel geben.
+* Pepperonis längs aufschneiden und Samen entfernen. Dann in Streifen schneiden.
+* Lauchzwiebeln in schmale Scheiben schneiden.
+* Die Soßenzutaten gut miteinander vermischen.
+
+### Braten
+* Knoblauch und Ingwer mit etwas Öl in der Pfanne leicht braun anbraten
+* Pepperonis hinzugeben und kurz anbraten.
+* Hackfleisch hinzugeben und braten, bis er fast durch ist.
+* Soße nochmals durchrühren und dann hinzugeben.
+* Alles braten, bis die Soße aufkocht.
+* Nun Auberginen und zwei Drittel der Lauchzwiebeln hinzugeben und ca. 1 Minute weiter braten.
+* Anschließend den Herd ausstellen, Sesamöl einrühren.
+* Mit den restlichen Lauchzwiebeln garnieren.

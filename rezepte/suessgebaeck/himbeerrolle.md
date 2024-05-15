@@ -1,0 +1,37 @@
+---
+title: Himbeerrolle
+duration: 1:30 h
+story: Ein luftig-lockeres, cremiges Dessert. Der Biskuitteig und die Himbeeren sorgen dabei für eine angenehme Süße. Die Grundmenge reicht zum Ausstreichen des Teigs auf einem Backblech. Bei z.B. halbierter Menge nutzt man entsprechend nur die halbe Backblech-Länge.
+ingredients:
+     Biskuitteig:
+          - [3, Eier]
+          - [90, g, Puderzucker]
+          - [120, g, Mehl Type 405]
+          - [1, TL, Backpulver]
+     Zum Bestreuen:
+          - [2, EL, Zucker]
+     Sahnefüllung:
+          - [400, g, Schlagsahne]
+          - [500, g, frische Himbeeren]
+tools:
+     - Sprühflasche
+oven_instructions: 175°C Ober-/Unterhitze, 10 Minuten
+---
+
+* Mehl und Backpulver vermischen.
+* Ofen auf 175°C Ober-/Unterhitze vorheizen.
+* Eier und Puderzucker 8 Minuten lang auf höchster Stufe zu einer schaumigen, cremigen Masse verrühren.
+* Mehlgemisch mit ausgeschaltetem Handrührgerät vorsichtig unterheben, bis eine homogene Masse entstanden ist.
+* Backblech mit Backpapier auslegen und den Teig gleichmäßig verteilen.
+* 10 Minuten im Ofen backen, der fertig gebackene Teig ist eher hell.
+* Währenddessen ein Küchentuch auslegen und auf etwa der Fläche des Backblechs mit Zucker bestreuen
+* Den fertigen Biskuitteig noch heiß auf das Küchentuch stürzen. (Einfach das Blech schnell über dem Küchentuch wenden.)
+* Mithilfe einer Sprühflasche das Backpapier mit ein wenig kaltem Wasser benetzen. Dann das Backpapier langsam nahe am Teig abziehen.
+* Den noch warmen Teig ohne Füllung in Form rollen und aufgerollt 30 Minuten abkühlen lassen.
+* Kurz vor Ende der Wartezeit eine Schüssel mit kaltem Wasser ausspühlen und mit einem Küchenpapier gründlich abtrocknen.
+* Darin die Sahne steif schlagen. (In einem kalten, trockenen, staubfreien Behälter wird Sahne besser steif.)
+* Die Himbeeren unter die Sahne heben.
+* Die Teigrolle wieder vorsichtig aufrollen und optional ungerade Ränder abschneiden, sodass der Teig rechteckig ist.
+* Die Himbeercreme gleichmäßig auf dem Teig verteilen.
+* Mithilfe des Küchentuchs den Teig aufrollen.
+* Anschließend mit der Nahtstelle nach unten im Kühlschrank aufbewahren.

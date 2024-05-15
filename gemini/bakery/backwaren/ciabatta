@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+
+head='''title: Ciabatta
+duration: 4:00 h
+story: Mit 80% Hydration ein schwer zu handhabender Teig. Das Ergebnis ist ein sehr saftiges, luftiges Brot das eher zu herzhaftem als süßem Belag passt. Ergibt ein großes Ciabatta-Brot.
+ingredients:
+     - [500, g, Mehl Type 550]
+     - [400, ml, Lauwarmes Wasser]
+     - [1, TL, Zucker]
+     - [21, g, Frische Hefe]
+     - [2, TL, Salz]
+     - [2, TL, 'Kräuter (zB. Oregano, Rosmarin, Basilikum)']
+     - [3, EL, Olivenöl]
+tools:
+     - Teigschaber
+     - Ofenfeste Schale
+oven_instructions: 220°C Ober-/Unterhitze, 25 Minuten
+'''
+
+instructions = '''
+* Hefe und Zucker im lauwarmen Wasser auflösen.
+* Salz, Kräuter und Mehl vermengen.
+* Olivenöl dazugeben.
+* Wassergemisch langsam im Mehl einrühren.
+* Teig mit dem Knethaken kneten, bis er leicht glänzt.
+* Eine Stunde ruhen lassen.
+* stretch & fold 1 – 30 Minuten ruhen – stretch & fold 2 – 30 Minuten ruhen – stretch & fold 3 – 30 Minuten ruhen – stretch & fold 4
+* Backpapier auf ein Backblech legen und reichlich bemehlen.
+* Teig auf das Mehl geben und zu einem länglichen Laib formen.
+* 30 Minuten ruhen lassen.
+* Ofen bei Ober-/Unterhitze auf 220°C vorheizen.
+* Brot mit reichlich Wasser benetzen.
+* Brot zusammen mit einer ofenfesten Schale kochendem Wasser in den Ofen schieben.
+* Backzeit: 25 Minuten
+'''
+
+from recipe_site_generator.gemtext_recipe import print_recipe
+print_recipe(head, instructions, image_url_path='/bakery/images/ciabatta.jpg', additional_image_url_paths=None)

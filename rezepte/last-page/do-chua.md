@@ -1,0 +1,23 @@
+---
+title: Đồ Chua (Sauer eingelegter Rettich und Karotte)
+duration: 0:30 h (10 Minuten Arbeit)
+servings: 1 kleiner Behälter
+story: 'Dieses eingelegte Gemüse ist häufiger Bestandteil meines Lieblingsgerichts aus Vietnam: Cơm Tấm.'
+ingredients:
+    - [80, g, Rettich]
+    - [80, g, Karotte]
+    - [1, TL, Salz]
+    - [3, EL, Zucker]
+    - [5, EL, 'Essig 5%']
+    - [100, ml, kochendes Wasser]
+tools:
+     - dicht verschließbarer Behälter
+---
+
+* Rettich und Karotten schälen und entweder in dünne Scheiben oder dünne Stifte hobeln.
+* Mit Salz bestreuen, durchmischen und 20 Minuten stehen lassen.
+* Salz abwaschen und das Gemüse leicht ausgedrückt in den dicht verschließbaren Behälter füllen.
+* Wasser kochen und darin den Zucker auflösen. Essig dazu geben.
+* Die Flüssigkeit zu dem Gemüse geben, sodass es vollständig bedeckt ist. Bei Bedarf zusätzlich Wasser dazu geben.
+* Eine Nacht bei Raumtemperatur stehen lassen, dann im Kühlschrank lagern, damit das Gemüse knackig bleibt.
+* Hält sich bis zu 3 Wochen.
