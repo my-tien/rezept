@@ -1,0 +1,28 @@
+---
+title: Hummus aus dem Mixer
+duration: ~45 Min
+story: 'Selbstgemachter Hummus, der nicht so sauer schmeckt wie Hummus, den man oft im Kühlregal findet.'
+ingredients:
+    - [400, g, Kirchererbsen aus der Dose]
+    - [170, g, Eiswürfel]
+    - [1, EL, "feste Sesampaste (gehäufter EL), ODER falls man flüssige Sesampaste hat…"]
+    - [4, EL, flüssige Sesampaste (ALTERNATIV zur festen Sesampaste oben)]
+    - [1, EL, Olivenöl]
+    - [1, kleine Zehe, "Knoblauch, fein gehackt oder gerieben"]
+    - [0.25, Stk, "Zitrone, davon der Saft"]
+    - [1, Prise, Salz]
+tools:
+     - Mixer
+---
+
+# Zubereiten
+* Kichererbsen schälen. Kichererbsen haben eine dünne, bitter schmeckende Schale, die fast nicht zu sehen ist. Aber man kann eine Kichererbse leicht schälen, indem man sie zwischen zwei Fingern drückt, sodass sie sich nach vorne aus der Schale heraus schiebt.
+* Die Eiswürfel im Mixer fein mixen. Es ist wichtig die Eiswürfel zuerst zu mixen, denn wenn sie erst später dazu kommen, bleiben sie gerne in der restlichen Masse stecken und erreichen so nicht die Mixer-Klingen.
+* Nun alle restlichen Zutaten dazu geben und mixen bis die Masse so homogen wie möglich ist.
+* Falls die Zutaten sich schwierig mixen lassen, zwischendurch immer mal wieder mit einem nicht spitzen Gegenstand durchmischen.
+* Den fertigen Hummus in einen Behälter geben und am besten über Nacht im Kühlschrank durchziehen lassen.
+
+# Servieren
+* Den Hummus kann man z.B. als Brotaufstrich pur essen.
+* Man kann ihn auch zusammen mit Olivenöl und/oder Oliven servieren und mit Petersilie garnieren.
+* Für eine fruchtige Variante kann man Hummus mit Granatapfel-Kernen garnieren.
