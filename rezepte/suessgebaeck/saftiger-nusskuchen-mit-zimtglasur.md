@@ -9,6 +9,7 @@ ingredients:
           - [1, Pk, Backpulver]
           - [4, EL, Mehl (gehäufte Esslöffel)]
           - [1, TL, Zimt]
+          - [250, g, brauner Zucker]
           - [1, Prise, Salz]
           - [2, TL, Vanille-Paste]
           - [200, g, weiche Butter]
