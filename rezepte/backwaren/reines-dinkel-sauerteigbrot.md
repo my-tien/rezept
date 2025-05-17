@@ -8,7 +8,7 @@ ingredients:
         - [60, g, Wasser (28°C)]
     Hauptteig:
         - [340, g, Dinkelmehl Type 630]
-        - [9.6, g, Salz]
+        - [8.6, g, Salz]
         - [24, g, Leinsamen]
         - [212, ml, Wasser (28°C)]
     Für die Kruste:
