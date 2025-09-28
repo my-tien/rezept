@@ -9,7 +9,7 @@ At some point it should also be possible to generate HTML files.
 
 ## Deployment
 
-- This repository was tested with Python 3.10 and 3.11.
+- This repository was tested with Python 3.10, 3.11 and 3.13.
 - Setup your spacebeans server
 - Install [recipe_site_generator](https://github.com/my-tien/recipe_site_generator) on the server
 - copy-paste the gemini/bakery folder into your spacebeans directory
