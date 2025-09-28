@@ -1,0 +1,49 @@
+---
+title: Haselnuss Macarons
+story: Wenn man nicht den Anspruch hat, einen Schönheitswettbewerb zu gewinnen, sind Macarons überraschend einfach und schnell herzustellen. Wenn die Eiweiß-Schalen zu lange im Ofen bleiben, bekommt man ebenfalls leckere Makronen anstatt Macarons!
+ingredients:
+    "Macaron-Schalen":
+        - [70, g, "gemahlene Haselnüsse"]
+        - [120, g, Puderzucker]
+        - [5, g, Kristallzucker]
+        - [64, g, "Eiklar (S Ei: ca. 30 - 35 g Eiklar, M Ei: ca. 35 - 40 g Eiklar)"]
+    "Füllung Alternative 1: Dichtere Schokocreme":
+        - [100, g, "Schwarze Schokolade 70%"]
+        - [80, ml, Schlagsahne]
+    "Füllung Alternative 2: Luftigere Schokocreme":
+        - [75, g, "Schwarze Schokolade 70%"]
+        - [75, ml, Schlagsahne]
+        - [1, TL, "Kaffee-Extrakt oder Instant-Kaffeepulver"]
+tools:
+     - Spritzbeutel o.ä
+
+oven_instructions: 140°C Ober-/Unterhitze, 15 Minuten
+---
+
+## Macaron-Schalen
+
+* Gemahlene Haselnüsse und Puderzucker sieben, beiseite stellen.
+* Eiweiß schlagen. Wenn es anfängt, schaumig zu werden, den Kristallzucker dazugeben und weiter schlagen, bis ein Eiweißschaum entsteht, in dem Furchen sichtbar bleiben.
+* Das Haselnuss-Puderzucker-Pulver in 3 Portionen gleichmäßig unterheben, bis eine homogene, dickflüssige Masse entstanden ist.
+* Die Macaron-Masse in den Spritzbeutel geben und ca. 1.5 cm breite Kreise mit ca. 1 cm Abstand zueinander auf das Backblech geben. Die Kreise werden noch etwas zerlaufen.
+* Macarons ca. 20 - 30 Minuten antrocknen lassen. Nach der Ruhezeit sollte die Oberseite sich etwas trocken anfühlen. Ansonsten länger warten.
+* Macarons bei 140°C ca. 15 Minuten backen.
+* Herausnehmen und abkühlen lassen.
+
+## Füllung Alternative 1: Dichtere Schokocreme
+
+* Die Schokolade zunächst in kleinere Stücke brechen.
+* Im Topf die Schlagsahne aufkochen und den Topf dann ausschalten.
+* Die Schokoladenstücke sofort dazu geben und zu einer gleichmäßigen Masse rühren.
+* Bei Raumtemparatur abkühlen lassen, bis die Masse streichfähig ist.
+
+## Füllung Alternative 2: Luftigere Schokocreme
+
+* Schokolade, Sahne und Kaffeepulver zusammen schmelzen und verrühren.
+* Im Kühlschrank abkühlen lassen.
+* Wenn die Creme etwas fester geworden ist, mit der Hand ein wenig aufschlagen.
+
+## Fertigstellung
+
+* Macarons-Schalen mit der Creme bestreichen. Für einen schöneren Effekt den Spritzbeutel verwenden. Anschließend den Deckel aufsetzen.
+* Die Macarons mindestens 4 Stunden im Kühlschrank aufbewahren. Erst dann werden sie die richtige Konsistenz haben.
