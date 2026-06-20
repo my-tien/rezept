@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
-
-head='''title: Sương Sa (Vietnamesischer Wackelpudding)
+---
+title: Sương Sa (Vietnamesischer Wackelpudding)
+date: 2023-06-29
 duration: 0:30 h
 story: Erfrischender veganer Wackelpudding, der nicht sauer ist!
 ingredients:
@@ -19,9 +19,8 @@ tools:
      - Schneebesen
      - Suppenkelle
      - Hitzebeständige Form die 1,5 Liter fasst, z.B. Auflaufform.
-'''
+---
 
-instructions = '''
 * Alle Zutaten für die Vanille-Ebene in den Topf geben und den Herd auf Max stellen.
 * Während das Wasser aufwärmt, stetig mit dem Schneebesen rühren.
 * Sobald das Wasser blubbert, sofort den Herd ausschalten und den Topfinhalt in die Form kippen.
@@ -33,7 +32,3 @@ instructions = '''
 * Mit der Suppenkelle die Schoko-Flüssigkeit schöpfen und sehr nah über der Puddingoberfläche langsam verteilen.
 * Den Pudding vollständig abkühlen lassen. Anschließend im Kühlschrank aufbewahren und vor dem anschneiden am besten über Nacht erkalten lassen.
 * Wenn die Form eine dekorative Kontur hat, kann man den Pudding zum Servieren später auf einen Teller stürzen.
-'''
-
-from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/suong-sa.jpg', additional_image_url_paths=None)

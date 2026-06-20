@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Hildes Zwetschgenkuchen mit Zimtstreuseln
+date: 2022-03-01
 duration: 1:20 h (40 Minuten Arbeit)
 servings: 1 Kuchen (Springform ⌀ 26 cm)
 story: Ein beliebter Zwetschgenkuchen auf chefkoch.de
@@ -35,4 +36,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/hildes-zwetschgenkuchen-mit-zimtstreuseln.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/hildes-zwetschgenkuchen-mit-zimtstreuseln.jpg", additional_image_url_paths=None)

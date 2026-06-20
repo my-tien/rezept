@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Jennys Sesam-Mandel-Kekse
+date: 2021-04-24
 duration: 0:30 h
 story: Diese Kekse haben einen sehr intensiven, süchtig machenden Geschmack und kommen vermutlich bei Liebhabern von Butterkeksen gut an. Ergibt 16 Kekse.
 ingredients:
@@ -32,4 +33,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/jennys-sesam-mandel-kekse.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/jennys-sesam-mandel-kekse.jpg", additional_image_url_paths=None)

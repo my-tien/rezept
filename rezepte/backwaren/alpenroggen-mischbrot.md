@@ -1,5 +1,6 @@
 ---
 title: Alpenroggen-Mischbrot
+date: 2022-01-04
 duration: ca. 13 h Sauerteig, 50 Minuten Stückgare, insgesamt ca. 15 h.
 story: 'Würzig aromatisches Alpenroggenmehl trifft auf kleberstarkes Ciabattamehl. Ergibt ein würziges Brot mit elastischer und saftiger Krume. TA 182. Ergibt ca. 400g Brot.'
 ingredients:

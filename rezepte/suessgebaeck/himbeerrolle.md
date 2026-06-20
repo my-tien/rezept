@@ -1,5 +1,6 @@
 ---
 title: Himbeerrolle
+date: 2021-07-12
 duration: 1:30 h
 story: Ein luftig-lockeres, cremiges Dessert. Der Biskuitteig und die Himbeeren sorgen dabei für eine angenehme Süße. Die Grundmenge reicht zum Ausstreichen des Teigs auf einem Backblech. Bei z.B. halbierter Menge nutzt man entsprechend nur die halbe Backblech-Länge.
 ingredients:

@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
-
-head='''title: Thịt Chưng Trứng Muối (Vietnamesische Fleischpastete mit salzigen Eiern)
+---
+title: Thịt Chưng Trứng Muối (Vietnamesische Fleischpastete mit salzigen Eiern)
+date: 2022-05-21
 duration: 2:00 h (20 – 30 Minuten Arbeit)
 servings: 7 Portionen
 story: 'Diese Fleischpastete ist häufiger Bestandteil meines Lieblingsgerichts aus Vietnam: Cơm Tấm.'
@@ -19,9 +19,8 @@ ingredients:
 tools:
      - Form
      - Dampfgarer
-'''
+---
 
-instructions = '''
 * Morcheln einweichen (20 Minuten), Glasnudeln einweichen (3 Minuten).
 * Morcheln und Glasnudeln in dünne Streifen schneiden.
 * Lauchzwiebeln in Ringe schneiden. Eine kleine Handvoll zum Garnieren beiseite legen.
@@ -43,7 +42,3 @@ instructions = '''
 * Fischsoße vorbereiten: 1:1:1 Fischsoße:Wasser:Zucker, Zitronensaft nach Geschmack, Chili
 * Lauchzwiebel-Ringe kurz in Öl anbraten, nicht braun werden lassen.
 * Fischsoße über den Reis gießen, mit den Lauchwziebeln in Öl garnieren, frische Gurke und Đồ Chua (sauer eingelegter Rettich und Karotte) dazu servieren.
-'''
-
-from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/thit-chung-trung-muoi.jpg', additional_image_url_paths=None)

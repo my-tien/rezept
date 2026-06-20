@@ -1,5 +1,7 @@
----
-title: 蔥油餅 (Cōng Yóu Bǐng/Lauchzwiebel-Öl-Pfannkuchen)
+#!/usr/bin/env python3
+
+head='''title: 蔥油餅 (Cōng Yóu Bǐng/Lauchzwiebel-Öl-Pfannkuchen)
+date: 2021-01-06
 duration: 1:00 h
 story: Ein taiwanesisches Street-Food für Fans von knusprigem Teig. Ergibt 2 Stück.
 ingredients:
@@ -10,8 +12,9 @@ ingredients:
     - [2, Stangen, Lauchzwiebeln]
 tools:
      - Nudelholz
----
+'''
 
+instructions = '''
 * Wasser, Mehl und Salz verkneten.
 * Teig in zwei gleiche Hälften teilen und jeweils zu runden Kugeln formen.
 * 20 Minuten unter einem feuchten Tuch ruhen lassen.
@@ -29,3 +32,7 @@ tools:
 * Den Teigling auf der einen Seite ohne Deckel leicht goldbraun anbraten, dann wenden und mit Deckel auch die andere Seite leicht goldbraun backen.
 * Teigling jeweils auf beiden Seiten einmal anheben und mit Kraft in die Pfanne schlagen.
 * Öl hinzugeben und Teigling in Kreisbewegungen darin auf beiden Seiten fertig braten.
+'''
+
+from recipe_site_generator.gemtext_recipe import print_recipe
+print_recipe(head, instructions, image_url_path="/bakery/images/cong-you-bing.jpg", additional_image_url_paths=None)

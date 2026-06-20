@@ -1,5 +1,6 @@
 ---
 title: Hummus aus dem Mixer
+date: 2024-08-16
 duration: ~45 Min
 story: 'Selbstgemachter Hummus, der nicht so sauer schmeckt wie Hummus, den man oft im Kühlregal findet.'
 ingredients:

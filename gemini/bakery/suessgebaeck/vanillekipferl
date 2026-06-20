@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Vanillekipferl
+date: 2021-12-18
 story: Einfaches Vanillekipferl-Rezept, ergibt 2 Bleche.
 ingredients:
     Teig:
@@ -24,4 +25,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/vanillekipferl.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/vanillekipferl.jpg", additional_image_url_paths=None)

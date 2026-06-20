@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Landbrot mit Sauerteig
+date: 2023-04-16
 duration: ca. 8 h Sauerteig, 20 min Autolyse, 2.5 h Stockgare, 12 h Stückgare, 45 min backen, insgesamt ca. 24 h.
 ingredients:
     Sauerteig:
@@ -45,4 +46,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/landbrot-mit-sauerteig.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/landbrot-mit-sauerteig.jpg", additional_image_url_paths=None)

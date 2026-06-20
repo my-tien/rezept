@@ -1,5 +1,6 @@
 ---
 title: Römertopf-Brot
+date: 2020-12-06
 duration: 3:30 h
 servings: 1
 story: Dieses Brot verlangt abgesehen von ein wenig Geduld nur wenige sehr leichte Arbeitsschritte und schmeckt trotzdem ordentlich.

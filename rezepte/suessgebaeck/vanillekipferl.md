@@ -1,5 +1,6 @@
 ---
 title: Vanillekipferl
+date: 2021-12-18
 story: Einfaches Vanillekipferl-Rezept, ergibt 2 Bleche.
 ingredients:
     Teig:

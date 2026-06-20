@@ -1,5 +1,6 @@
 ---
 title: Irenes Marmorkuchen
+date: 2020-12-18
 duration: 4:00 h
 story: Dieser Marmorkuchen ist nicht zu süß und hat durch die Bittermandel ein feines Aroma. Ergibt einen Kastenkuchen.
 ingredients:

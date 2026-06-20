@@ -1,5 +1,6 @@
 ---
 title: Haselnuss Macarons
+date: 2025-07-17
 story: Wenn man nicht den Anspruch hat, einen Schönheitswettbewerb zu gewinnen, sind Macarons überraschend einfach und schnell herzustellen. Wenn die Eiweiß-Schalen zu lange im Ofen bleiben, bekommt man ebenfalls leckere Makronen anstatt Macarons!
 ingredients:
     "Macaron-Schalen":

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Reines Dinkel-Sauerteigbrot
+date: 2020-04-19
 
 ingredients:
     Sauerteig:
@@ -49,4 +50,4 @@ Möglicher Zeitplan: Sauerteig-Starter morgens auffrischen, am Abend den Teig vo
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/reines-dinkel-sauerteigbrot.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/reines-dinkel-sauerteigbrot.jpg", additional_image_url_paths=None)

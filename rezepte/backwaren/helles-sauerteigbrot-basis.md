@@ -1,5 +1,6 @@
 ---
 title: Helles Sauerteigbrot Basis
+date: 2022-01-04
 duration: ca. 10 h Sauerteig, 1 h Autolyse, 3 h Stockgare, 1.5 h Stückgare, 35 min backen, insgesamt ca. 16 h.
 story: 'Das typische Weizensauerteigbrot-Rezept für alle Sauerteig-Enthusiasten. Kann als Basisrezept für beliebige Anpassungen verwendet werden. Je nach Mehlsorte kann der Wassergehalt angepasst werden (Daumenregel: Eiweißgehalt 11 – 12% → Wassergehalt ~70%, Eiweißgehalt 14 – 15% → Wassergehalt ~80%). Unterschiedliche Zimmertemperaturen und Aktivität des Sauerteigs beeinflussen die Reifezeit. Ich habe einen Starter, der sich nach 6 Stunden bei 24°C verdoppelt und arbeite bei 24°C. Saaten können nach dem Autolyseschritt mit den restlichen Zutaten dazugegeben werden.'
 ingredients:

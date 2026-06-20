@@ -1,5 +1,6 @@
 ---
 title: Dinkel-Roggen-Sauerteigbrot
+date: 2021-07-09
 duration: ~13:00 h
 story: Aufgrund des Weizenanteils in diesem Brot ist die Teigführung wesentlich einfacher als bei einem reinen Roggenvollkornbrot. Die Kruste ist nach dem Backen knusprig. Die Krume ist etwas luftig und mild im Geschmack. TA 176. Ergibt ca. 630g Brot.
 ingredients:

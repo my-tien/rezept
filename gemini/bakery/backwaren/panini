@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Panini
+date: 2021-03-30
 duration: 24 h
 servings: 1
 story: Dieses Sauerteigbrot mit 70% Hydration für Brotback-Einsteiger wird am Vorabend vorbereitet und am darauffolgenden Abend gebacken. Am Back-Abend sollten ca. 2 h für das Kneten und backen eingeplant werden.
@@ -32,4 +33,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/panini.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/panini.jpg", additional_image_url_paths=None)

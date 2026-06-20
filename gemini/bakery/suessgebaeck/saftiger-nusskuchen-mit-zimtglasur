@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Saftiger Nusskuchen mit Zimtglasur
+date: 2023-07-02
 duration: 30 Minuten Arbeitszeit, ca. 1 Stunde Backzeit
 servings: Torte 24 cm Springform
 story: Sehr saftiger und aromatischer Haselnusskuchen
@@ -22,7 +23,7 @@ ingredients:
 
 oven_instructions: 170°C Ober-/Unterhitze, dann 60 – 70 Minuten
 additional_images:
-     'An image of Anschneide-Trick': /bakery/images/saftiger-nusskuchen-mit-zimtglasur-baklava-schneiden.png
+     'An image of Anschneide-Trick': saftiger-nusskuchen-mit-zimtglasur-baklava-schneiden.png
 '''
 
 instructions = '''
@@ -43,4 +44,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/saftiger-nusskuchen-mit-zimtglasur.jpg', additional_image_url_paths={'An image of Anschneide-Trick': '/bakery/images/saftiger-nusskuchen-mit-zimtglasur-baklava-schneiden.png'})
+print_recipe(head, instructions, image_url_path="/bakery/images/saftiger-nusskuchen-mit-zimtglasur.jpg", additional_image_url_paths=None)

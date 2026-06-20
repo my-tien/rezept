@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
-
-head='''title: 太陽餅 (Tàiyáng Bǐng/Sonnenkuchen)
+---
+title: 太陽餅 (Tàiyáng Bǐng/Sonnenkuchen)
+date: 2020-10-25
 duration: 2:00 h
 story: Leider kommt dieses Rezept noch nicht an das taiwanesische Original heran. Ergibt 12 Sonnenkuchen.
 ingredients:
@@ -27,9 +27,8 @@ tools:
     - Schmales Nudelholz
     - Frischhaltefolie
 oven_instructions: 220°C Ober-/Unterhitze, 8 - 10 Minuten
-'''
+---
 
-instructions = '''
 ### Kurzfassung
 - Wasserteig vorbereiten und 10 Minuten ruhen lassen.
 - Ölteig vorbereiten und mit Wasserteig vereinen.
@@ -63,7 +62,3 @@ instructions = '''
 - eine Kugel der Füllung darauf legen und mit der rechten Hand abwechselnd die Teigscheibe drehen und die Füllung sanft hinein drücken. Der linke Zeigefinger und Daumen im O drücken dabei die Seiten leicht ein, bis die Füllung umschlossen ist. Oben den Teig gut über der Füllung zusammendrücken.
 - Auf dem Backblech zu einer runden Scheibe mit ca. 0.5 cm Dicke drücken.
 - Ofen auf 220°C Ober-/Unterhitze vorwärmen und 8 – 10 Minuten backen
-'''
-
-from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/tai-yang-bing.jpg', additional_image_url_paths=None)

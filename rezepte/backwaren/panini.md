@@ -1,5 +1,6 @@
 ---
 title: Panini
+date: 2021-03-30
 duration: 24 h
 servings: 1
 story: Dieses Sauerteigbrot mit 70% Hydration für Brotback-Einsteiger wird am Vorabend vorbereitet und am darauffolgenden Abend gebacken. Am Back-Abend sollten ca. 2 h für das Kneten und backen eingeplant werden.

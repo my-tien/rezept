@@ -1,5 +1,6 @@
 ---
 title: Bánh Củ Cải (Vietnamesischer Rettichkuchen)
+date: 2022-05-30
 duration: 1:00 h
 story: Warmes Frühstück
 ingredients:

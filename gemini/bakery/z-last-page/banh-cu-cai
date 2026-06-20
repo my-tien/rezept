@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Bánh Củ Cải (Vietnamesischer Rettichkuchen)
+date: 2022-05-30
 duration: 1:00 h
 story: Warmes Frühstück
 ingredients:
@@ -30,4 +31,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/banh-cu-cai.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/banh-cu-cai.jpg", additional_image_url_paths=None)

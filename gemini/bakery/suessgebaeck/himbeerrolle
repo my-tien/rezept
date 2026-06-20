@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Himbeerrolle
+date: 2021-07-12
 duration: 1:30 h
 story: Ein luftig-lockeres, cremiges Dessert. Der Biskuitteig und die Himbeeren sorgen dabei für eine angenehme Süße. Die Grundmenge reicht zum Ausstreichen des Teigs auf einem Backblech. Bei z.B. halbierter Menge nutzt man entsprechend nur die halbe Backblech-Länge.
 ingredients:
@@ -40,4 +41,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/himbeerrolle.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/himbeerrolle.jpg", additional_image_url_paths=None)

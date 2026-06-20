@@ -1,5 +1,6 @@
 ---
 title: Saftiges Karotten-Vollkornbrot mit Sonnenblumenkernen
+date: 2020-11-15
 duration: 1:30 h
 story: Mit anderthalb Stunden ein sehr schnelles Brot. Die Krume ist weich und saftig, die Kerne geben einen gewissen Biss. Es passt sowohl zu herzhaften als auch süßen Belägen. Ergibt ein Kastenbrot.
 ingredients:

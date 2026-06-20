@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
-
-head='''title: Đồ Chua (Sauer eingelegter Rettich und Karotte)
+---
+title: Đồ Chua (Sauer eingelegter Rettich und Karotte)
+date: 2022-05-21
 duration: 0:30 h (10 Minuten Arbeit)
 servings: 1 kleiner Behälter
 story: 'Dieses eingelegte Gemüse ist häufiger Bestandteil meines Lieblingsgerichts aus Vietnam: Cơm Tấm.'
@@ -13,9 +13,8 @@ ingredients:
     - [100, ml, kochendes Wasser]
 tools:
      - dicht verschließbarer Behälter
-'''
+---
 
-instructions = '''
 * Rettich und Karotten schälen und entweder in dünne Scheiben oder dünne Stifte hobeln.
 * Mit Salz bestreuen, durchmischen und 20 Minuten stehen lassen.
 * Salz abwaschen und das Gemüse leicht ausgedrückt in den dicht verschließbaren Behälter füllen.
@@ -23,7 +22,3 @@ instructions = '''
 * Die Flüssigkeit zu dem Gemüse geben, sodass es vollständig bedeckt ist. Bei Bedarf zusätzlich Wasser dazu geben.
 * Eine Nacht bei Raumtemperatur stehen lassen, dann im Kühlschrank lagern, damit das Gemüse knackig bleibt.
 * Hält sich bis zu 3 Wochen.
-'''
-
-from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/do-chua.jpg', additional_image_url_paths=None)

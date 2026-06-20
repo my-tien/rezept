@@ -1,5 +1,6 @@
 ---
 title: Hildes Zwetschgenkuchen mit Zimtstreuseln
+date: 2022-03-01
 duration: 1:20 h (40 Minuten Arbeit)
 servings: 1 Kuchen (Springform ⌀ 26 cm)
 story: Ein beliebter Zwetschgenkuchen auf chefkoch.de

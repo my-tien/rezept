@@ -1,5 +1,6 @@
 ---
 title: Blaubeer-Muffins
+date: 2021-07-10
 story: 'Sehr einfach zu backen. Der Muffin ist oben knusprig und innen drin luftig, weich und saftig. Die Kruste ist etwas süßer als der Rest. Ergibt 12 Muffins. Hinweis: Die Muffins sind relativ groß. Verwendet man zwei Drittel der Menge (und ein L Ei anstelle der 2 M Eier) ergibt das 12 kleine Muffins.'
 ingredients:
      Rührteig:

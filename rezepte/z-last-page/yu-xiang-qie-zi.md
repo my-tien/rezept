@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
-
-head='''title: 鱼香茄子 – Yú xiāng qié zi
+---
+title: 鱼香茄子 – Yú xiāng qié zi
+date: 2021-11-30
 story: Gebratenes Hackfleisch-Auberginen-Gericht mit scharfer süß-sauer-salziger Soße, allerdings deutlich fettarmer als das Original. Ergibt 2 Portionen.
 ingredients:
      Soße:
@@ -24,9 +24,8 @@ ingredients:
 
 tools:
      - Dampfgarvorrichtung
-'''
+---
 
-instructions = '''
 ### Vorbereitung
 * Aubergine waschen, Strunk entfernen und zu ca. 1,5×6 cm Stiften schneiden.
 * Die geschnittene Aubergine ca. 15 Minuten dampfgaren, zB. mit einem Garsieb und Wasser im Kochtopf.
@@ -46,7 +45,3 @@ instructions = '''
 * Nun Auberginen und zwei Drittel der Lauchzwiebeln hinzugeben und ca. 1 Minute weiter braten.
 * Anschließend den Herd ausstellen, Sesamöl einrühren.
 * Mit den restlichen Lauchzwiebeln garnieren.
-'''
-
-from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/yu-xiang-qie-zi.jpg', additional_image_url_paths=None)

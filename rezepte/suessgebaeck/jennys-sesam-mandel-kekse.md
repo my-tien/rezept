@@ -1,5 +1,6 @@
 ---
 title: Jennys Sesam-Mandel-Kekse
+date: 2021-04-24
 duration: 0:30 h
 story: Diese Kekse haben einen sehr intensiven, süchtig machenden Geschmack und kommen vermutlich bei Liebhabern von Butterkeksen gut an. Ergibt 16 Kekse.
 ingredients:

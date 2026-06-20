@@ -1,5 +1,6 @@
 ---
 title: Landbrot mit Sauerteig
+date: 2023-04-16
 duration: ca. 8 h Sauerteig, 20 min Autolyse, 2.5 h Stockgare, 12 h Stückgare, 45 min backen, insgesamt ca. 24 h.
 ingredients:
     Sauerteig:

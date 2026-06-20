@@ -1,5 +1,6 @@
 ---
 title: Ciabatta
+date: 2020-10-14
 duration: 4:00 h
 story: Mit 80% Hydration ein schwer zu handhabender Teig. Das Ergebnis ist ein sehr saftiges, luftiges Brot das eher zu herzhaftem als süßem Belag passt. Ergibt ein großes Ciabatta-Brot.
 ingredients:

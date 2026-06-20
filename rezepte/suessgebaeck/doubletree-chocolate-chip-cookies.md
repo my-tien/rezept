@@ -1,5 +1,6 @@
 ---
 title: DoubleTree Chocolate Chip Cookies
+date: 2021-12-30
 story: Eine Adaption der DoubleTree Chocolate Chip Cookies mit ~25% weniger Zucker und ~15% weniger Schokoladendrops. Ergibt ein Blech mit ca. 16 Cookies. (Quelle https://newsroom.hilton.com/static-doubletree-reveals-cookie-recipe.htm)
 ingredients:
     - [113, g, weiche Butter]

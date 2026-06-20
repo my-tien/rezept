@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 head='''title: Hummus aus dem Mixer
+date: 2024-08-16
 duration: ~45 Min
 story: 'Selbstgemachter Hummus, der nicht so sauer schmeckt wie Hummus, den man oft im Kühlregal findet.'
 ingredients:
@@ -31,4 +32,4 @@ instructions = '''
 '''
 
 from recipe_site_generator.gemtext_recipe import print_recipe
-print_recipe(head, instructions, image_url_path='/bakery/images/hummus-aus-dem-mixer.jpg', additional_image_url_paths=None)
+print_recipe(head, instructions, image_url_path="/bakery/images/hummus-aus-dem-mixer.jpg", additional_image_url_paths=None)

@@ -1,5 +1,6 @@
 ---
 title: Apfeltorte mit Zimt-Sahne
+date: 2022-08-16
 duration: 40 Minuten Arbeitszeit, 40 Minuten Backzeit und mehrere Stunden Kühlzeit
 servings: Torte 26 cm Springform
 story: Diese Apfeltorte vereint fruchtige Äpfel mit Pudding und frischer Sahne auf einem lockeren Mürbeteig.

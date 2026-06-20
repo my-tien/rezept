@@ -1,5 +1,6 @@
 ---
 title: Reines Dinkel-Sauerteigbrot
+date: 2020-04-19
 
 ingredients:
     Sauerteig:
