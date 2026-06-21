@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+
+head='''title: Kvæfjordkake
+date: 2026-06-21
+story: Laut einer Umfrage der beliebteste Kuchen Norwegens
+ingredients:
+    'Vanille-Pudding':
+        - [150, ml, Vollmilch]
+        - [150, ml, 'Schlagsahne ~34% Fett']
+        - [3, Eigelb M]
+        - [25, g, Maisstärke]
+        - [25, g, Mehl Type 450]
+        - [1, TL, Vanille-Paste]
+        - [50, g, Zucker]
+    Rührkuchenteig:
+        - [150, g, Butter]
+        - [100, g, Zucker]
+        - [4, Eigelb M]
+        - [60, ml, Vollmilch]
+        - [1, TL, Vanillepaste]
+        - [150, g, Mehl Type 450]
+        - [1, TL, Backpulver]
+    'Baiser-Topping':
+        - [7, Eiweiß M]
+        - [200, g, weißer Zucker]
+        - [50, g, Mandelstifte]
+    'Vanille-Creme':
+        - [Vanille-Pudding]
+        - [250, g, 'Schlagsahne ~34% Fett']
+        
+oven_instructions: 170°C Ober-/Unterhitze, mittlere Schiene, 27 Minuten
+'''
+
+instructions = '''
+## Vanille-Pudding
+(Als Alternative zu diesem Schritt Vanille-Pudding-Pulver nach Anleitung zubereiten.)
+
+* Milch und Schlagsahne im Topf erhitzen, bis Dampf aufsteigt (nicht bis es kocht).
+* In einer Schüssel 3 Eigelb mit Zucker verquirlen (Das Eiweiß für den Baiser aufbewahren).
+* Mehl und Maisstärke hinzufügen und nur so lange weiterrühren, bis die Masse homogen ist.
+* Ungefähr die Hälfte der erhitzten Milch und Schlagsahne unter Rühren langsam dazugeben.
+* Die gesamte Menge nun in den Topf mit der restlichen Milch und Schlagsahne geben.
+* Unter ständigem Rühren bei mittlerer Hitze andicken lassen.
+* Vanille-Paste hinzugeben und ca. 30 Sekunden weiterrühren, dann Hitze ausschalten.
+* Falls Klümpchen vorhanden sind, die Pudding-Masse durch ein Sieb drücken.
+* Mit Frischhaltefolie direkt auf der Pudding-Masse bedecken um Hautbildung zu vermeiden.
+* Im Kühlschrank mindestens 4 Stunden kühl stellen.
+
+## Rührkuchenteig
+* Butter und Zucker flockig verquirlen.
+* 4 Eigelb hinzugeben und gut einmixen (Das Eiweiß für den Baiser aufbewahren).
+* Milch und Vanillepaste einrühren.
+* Zum Schluss kurz das Mehl und Backpulver einrühren.
+* Die Teigmasse auf einem Backblech ca. 5 mm flach und gleichmäßig verteilen.
+
+## Baiser-Topping
+* Mandelstifte bei mittlerer Hitze in der Pfanne kurz anrösten (nicht, bis sie braun werden).
+* Das Eiweiß in einer sauberen Schüssel aufschlagen, bis es schaumig wird.
+* Unter ständigem Schlagen den Zucker in 3 Portionen hinzugeben.
+* Weiterschlagen, bis die Baiser-Masse steif genug ist. Zum Test die Schlagstäbe herausziehen und danach Ausschau halten, dass ein Eischneezipfel absteht.
+* Masse hügelig auf dem Rührteig verteilen.
+* Angeröstete Mandelstifte darüber sprenkeln.
+* Im vorgeheizten Backofen bei 170°C Ober-/Unterhitze ca. 27 Minuten backen. Der Teig ist fertig, wenn die Baiser-Masse rissig und leicht gebräunt ist.
+* Aus dem Ofen nehmen und noch warm in der Mitte halbieren. Dies sind später die Ober- und Unterseite des Kuchens.
+* Abkühlen lassen.
+
+## Vanille-Creme
+* Schlagsahne in einer sauberen Schüssel steif schlagen. Die Sahne ist steif, wenn sie beim Herausziehen der Rührstäbe ihre Form behält.
+* Den gekühlten Vanille-Pudding nach und nach in die Sahne einrühren, bis eine homogene Creme entstanden ist.
+
+## Kuchen fertig stellen
+* Eine der zwei Böden umdrehen, sodass die Baiser-Seite nach unten zeigt.
+* Die Vanille-Creme darauf verteilen.
+* zweiten Boden mit der Rührteig-Seite auf die Creme legen.
+
+Quellen: https://www.youtube.com/watch?v=1RmZJrDPn6A, https://youtube.com/watch?v=URFvzAqtIN8, https://scandinaviancookbook.com/kvaefjord-cake-verdens-beste-worlds-best-cake/
+'''
+
+from recipe_site_generator.gemtext_recipe import print_recipe
+print_recipe(head, instructions, image_url_path="/bakery/images/kvaefjordkake.jpg", additional_image_url_paths=None)

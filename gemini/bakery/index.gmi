@@ -55,6 +55,7 @@ Between breadcrumbs and oven mittens lies an open book full of German recipes:
 => /bakery/suessgebaeck/hildes-zwetschgenkuchen-mit-zimtstreuseln Hildes Zwetschgenkuchen mit Zimtstreuseln (2022-03-01)
 => /bakery/suessgebaeck/vanillekipferl Vanillekipferl (2021-12-18)
 => /bakery/suessgebaeck/saftiger-nusskuchen-mit-zimtglasur Saftiger Nusskuchen mit Zimtglasur (2023-07-02)
+=> /bakery/suessgebaeck/kvaefjordkake Kvæfjordkake (2026-06-21)
 => /bakery/suessgebaeck/doubletree-chocolate-chip-cookies DoubleTree Chocolate Chip Cookies (2021-12-30)
 => /bakery/suessgebaeck/apfeltorte-mit-zimt-sahne Apfeltorte mit Zimt-Sahne (2022-08-16)
 => /bakery/suessgebaeck/panettone Panettone (2026-01-04)
