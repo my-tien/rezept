@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang='de-DE'>
+
+<head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>Haselnuss Macarons</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #242424;
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 2rem 4rem;
+        }
+
+        .container {
+            max-width: 99ch;
+        }
+
+        .container > img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container > * + * {
+            margin-top: 1rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #8f5902;
+            margin-top: 2rem;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        table td:first-of-type {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        table td:last-of-type {
+            border-left: 1px solid #8f5902;
+            padding-left: 1rem;
+        }
+
+        table td {
+            padding: 0.5rem 1rem;
+        }
+
+        table tr:nth-of-type(2n) {
+            background-color: #e9b96e;
+        }
+
+        ul {
+            list-style: square;
+            margin-left: 36px;
+        }
+        ul > li + li {
+            margin-top: 0.5rem;
+        }
+
+        hr {
+            background-color: #e9b96e;
+            border: 0;
+            height: 2px;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: #8f5902;
+            text-decoration: none;
+            border-bottom: 2px dashed #e9b96e;
+        }
+
+        a:hover {
+            border-bottom-color: #8f5902;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+
+    <h1>Haselnuss Macarons</h1>
+    <p>Wenn man nicht den Anspruch hat, einen Schönheitswettbewerb zu gewinnen, sind Macarons überraschend einfach und schnell herzustellen. Wenn die Eiweiß-Schalen zu lange im Ofen bleiben, bekommt man ebenfalls leckere Makronen anstatt Macarons!</p>
+
+    
+    <img src="../images/haselnuss-macarons.jpg" alt="Image of Haselnuss Macarons" />
+    
+
+    <h2>Zutaten (Menge ×<span id="MultiplicatorText">1</span>)</h2>
+    <p>Gib die gewünschte Menge an:</p>
+    <p>
+        <label for="amount">Mengen-Multiplikator:</label>
+        <input type="number" id="amountInput" name="amount" min="0" step="0.5" value="1" />
+    </p>
+
+    
+
+    
+        
+            <h3>Macaron-Schalen</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='70'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>gemahlene Haselnüsse</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='120'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Puderzucker</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='5'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Kristallzucker</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='64'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Eiklar (S Ei: ca. 30 - 35 g Eiklar, M Ei: ca. 35 - 40 g Eiklar)</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Füllung Alternative 1: Dichtere Schokocreme</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='100'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Schwarze Schokolade 70%</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='80'></td>
+                <td class="ingredient-unit" unit='ml'></td>
+                <td>Schlagsahne</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Füllung Alternative 2: Luftigere Schokocreme</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='75'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Schwarze Schokolade 70%</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='75'></td>
+                <td class="ingredient-unit" unit='ml'></td>
+                <td>Schlagsahne</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit='TL'></td>
+                <td>Kaffee-Extrakt oder Instant-Kaffeepulver</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+    
+
+    
+        <h2>Utensilien</h2>
+        <ul>
+            
+                <li>Spritzbeutel o.ä</li>
+            
+        </ul>
+    
+
+    
+        <h2>Ofeneinstellung</h2>
+        <p>⏲ 140°C Ober-/Unterhitze, 15 Minuten</p>
+    
+
+    <hr>
+
+    <h2>Macaron-Schalen</h2>
+<ul>
+<li>Gemahlene Haselnüsse und Puderzucker sieben, beiseite stellen.</li>
+<li>Eiweiß schlagen. Wenn es anfängt, schaumig zu werden, den Kristallzucker dazugeben und weiter schlagen, bis ein Eiweißschaum entsteht, in dem Furchen sichtbar bleiben.</li>
+<li>Das Haselnuss-Puderzucker-Pulver in 3 Portionen gleichmäßig unterheben, bis eine homogene, dickflüssige Masse entstanden ist.</li>
+<li>Die Macaron-Masse in den Spritzbeutel geben und ca. 1.5 cm breite Kreise mit ca. 1 cm Abstand zueinander auf das Backblech geben. Die Kreise werden noch etwas zerlaufen.</li>
+<li>Macarons ca. 20 - 30 Minuten antrocknen lassen. Nach der Ruhezeit sollte die Oberseite sich etwas trocken anfühlen. Ansonsten länger warten.</li>
+<li>Macarons bei 140°C ca. 15 Minuten backen.</li>
+<li>Herausnehmen und abkühlen lassen.</li>
+</ul>
+<h2>Füllung Alternative 1: Dichtere Schokocreme</h2>
+<ul>
+<li>Die Schokolade zunächst in kleinere Stücke brechen.</li>
+<li>Im Topf die Schlagsahne aufkochen und den Topf dann ausschalten.</li>
+<li>Die Schokoladenstücke sofort dazu geben und zu einer gleichmäßigen Masse rühren.</li>
+<li>Bei Raumtemparatur abkühlen lassen, bis die Masse streichfähig ist.</li>
+</ul>
+<h2>Füllung Alternative 2: Luftigere Schokocreme</h2>
+<ul>
+<li>Schokolade, Sahne und Kaffeepulver zusammen schmelzen und verrühren.</li>
+<li>Im Kühlschrank abkühlen lassen.</li>
+<li>Wenn die Creme etwas fester geworden ist, mit der Hand ein wenig aufschlagen.</li>
+</ul>
+<h2>Fertigstellung</h2>
+<ul>
+<li>Macarons-Schalen mit der Creme bestreichen. Für einen schöneren Effekt den Spritzbeutel verwenden. Anschließend den Deckel aufsetzen.</li>
+<li>Die Macarons mindestens 4 Stunden im Kühlschrank aufbewahren. Erst dann werden sie die richtige Konsistenz haben.</li>
+</ul>
+
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+</div>
+</body>
+<script>
+    const multiplicatorInput = document.querySelector('#amountInput');
+    const multiplicatorText = document.querySelector('#MultiplicatorText');
+    const ingredientAmountTds = document.querySelectorAll('.ingredient-amount');
+    const ingredientUnitTds = document.querySelectorAll('.ingredient-unit');
+    
+    function updateMultiplicators() {
+        const multiplicator = Number(multiplicatorInput.value || 1);
+        
+        multiplicatorText.textContent = multiplicator;
+
+        ingredientAmountTds.forEach((amountTd, idx) => {
+            const result = getMultipliedIngredient(idx, multiplicator);
+            amountTd.textContent = result.amount;
+            ingredientUnitTds[idx].textContent = result.unit;
+        });
+    }
+
+    function getMultipliedIngredient(idx, multiplicator) {
+        if (idx >= ingredientAmountTds.length || idx >= ingredientUnitTds.length) {
+            console.error(
+                `Requested convertAmount for out-of-bounds index ${idx}. Max index: ${ingredientAmountTds.length - 1}`
+            );
+            return;
+        }
+        const amountText = ingredientAmountTds[idx].attributes['amount']?.value || '';
+        const unit = ingredientUnitTds[idx].attributes['unit']?.value || '';
+        if (amountText.length == 0) {
+            return {"amount": amountText, "unit": unit};
+        }
+        const amount = Number(amountText) * multiplicator;
+        const result = getHumanReadableAmount(amount, unit);
+        if (typeof result.amount === 'number') {
+            result.amount = result.amount.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+        }
+        return result;
+    }
+
+    function getHumanReadableAmount(amount, unit) {
+        if (unit === 'g') {
+            if (amount < 0.1) {
+				return {"amount": amount*1000, "unit": 'mg'};
+            }
+			else if(amount < 1000) {
+				return {"amount": amount, "unit": 'g'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'kg'};
+            }
+        }
+		else if (unit === 'ml') {
+			if (amount < 1000) {
+				return {"amount": amount, "unit": 'ml'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'L'};
+            }
+        }
+		else if (unit === 'TL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'TL'};
+            }
+            else {
+                return getHumanReadableAmount(amount*5, 'ml');
+            }
+        }
+		else if (unit === 'EL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'EL'};
+            }
+			else {
+                return getHumanReadableAmount(amount*15, 'ml');
+            }
+        }
+		else {
+            return {"amount": amount, "unit": unit};
+        }
+    };
+    
+    let debounceTimeout;
+    multiplicatorInput.addEventListener('input', (event) => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => updateMultiplicators(), 500);
+    });
+
+    // fill initial values
+    updateMultiplicators();
+</script>
+</html>

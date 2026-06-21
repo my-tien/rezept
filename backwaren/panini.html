@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang='de-DE'>
+
+<head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>Panini</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #242424;
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 2rem 4rem;
+        }
+
+        .container {
+            max-width: 99ch;
+        }
+
+        .container > img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container > * + * {
+            margin-top: 1rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #8f5902;
+            margin-top: 2rem;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        table td:first-of-type {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        table td:last-of-type {
+            border-left: 1px solid #8f5902;
+            padding-left: 1rem;
+        }
+
+        table td {
+            padding: 0.5rem 1rem;
+        }
+
+        table tr:nth-of-type(2n) {
+            background-color: #e9b96e;
+        }
+
+        ul {
+            list-style: square;
+            margin-left: 36px;
+        }
+        ul > li + li {
+            margin-top: 0.5rem;
+        }
+
+        hr {
+            background-color: #e9b96e;
+            border: 0;
+            height: 2px;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: #8f5902;
+            text-decoration: none;
+            border-bottom: 2px dashed #e9b96e;
+        }
+
+        a:hover {
+            border-bottom-color: #8f5902;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+
+    <h1>Panini</h1>
+    <p>Dieses Sauerteigbrot mit 70% Hydration für Brotback-Einsteiger wird am Vorabend vorbereitet und am darauffolgenden Abend gebacken. Am Back-Abend sollten ca. 2 h für das Kneten und backen eingeplant werden.</p>
+
+    
+    <img src="../images/panini.jpg" alt="Image of Panini" />
+    
+
+    <h2>Zutaten (Menge ×<span id="MultiplicatorText">1</span>)</h2>
+    <p>Gib die gewünschte Menge an:</p>
+    <p>
+        <label for="amount">Mengen-Multiplikator:</label>
+        <input type="number" id="amountInput" name="amount" min="0" step="0.5" value="1" />
+    </p>
+
+    
+
+    
+        
+            <h3>Vorteig</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='30'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Sauerteig</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='110'></td>
+                <td class="ingredient-unit" unit='ml'></td>
+                <td>Wasser in Raumtemperatur</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='110'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Mehl Type 00 oder 550</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Hauptteig</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='250'></td>
+                <td class="ingredient-unit" unit='ml'></td>
+                <td>Wasser</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='400'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Mehl Type 00 oder 550</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='2'></td>
+                <td class="ingredient-unit" unit='TL'></td>
+                <td>Salz</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+    
+
+    
+
+    
+        <h2>Ofeneinstellung</h2>
+        <p>⏲ 210°C Ober-/Unterhitze, 33 Minuten</p>
+    
+
+    <hr>
+
+    <ul>
+<li>Vorteig-Zutaten vor dem zu Bett gehen vermengen und bei Raumtemperatur bis zur Verdoppelung stehen lassen (8 – 12 h).</li>
+<li>Am nächsten Morgen den Vorteig mit Hauptteig-Zutaten ohne Salz vermischen und 30 Minuten ruhen lassen.</li>
+<li>Salz hinzugeben und Teig kneten, bis der Fenstertest erfolgreich ist.</li>
+<li>Teig abgedeckt ~ 1 Stunde bei Raumtemperatur stehen lassen, dann bis zum Abend (8 – 12 h) in den Kühlschrank stellen.</li>
+<li>Teig auf die Arbeitsplatte geben und alle vier Seiten bis zur Mitte falten, dann umdrehen und rundformen.</li>
+<li>Auf die glatte Seite legen und etwas platt drücken, dann erneut falten und rundformen.</li>
+<li>Ein drittes Mal wiederholen.</li>
+<li>10 Minuten ruhen lassen.</li>
+<li>Teigling formen: Mit der glatten Seite nach unten legen, etwas länglich und platt drücken. Die obere Seite zur Mitte falten. Dann die untere Seite über die obere falten. Die Naht mit den Fingern verschließen.</li>
+<li>Brot für 50 Minuten im Ofen bei eingeschalteter Lampe gehen lassen. Dabei einen Behälter mit kochendem Wasser eine Etage über dem Brot platzieren.</li>
+<li>Die Wasserschale entfernen und den Ofen auf 210°C vorheizen.</li>
+<li>Das Brot für ~33 Minuten backen.</li>
+</ul>
+
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+</div>
+</body>
+<script>
+    const multiplicatorInput = document.querySelector('#amountInput');
+    const multiplicatorText = document.querySelector('#MultiplicatorText');
+    const ingredientAmountTds = document.querySelectorAll('.ingredient-amount');
+    const ingredientUnitTds = document.querySelectorAll('.ingredient-unit');
+    
+    function updateMultiplicators() {
+        const multiplicator = Number(multiplicatorInput.value || 1);
+        
+        multiplicatorText.textContent = multiplicator;
+
+        ingredientAmountTds.forEach((amountTd, idx) => {
+            const result = getMultipliedIngredient(idx, multiplicator);
+            amountTd.textContent = result.amount;
+            ingredientUnitTds[idx].textContent = result.unit;
+        });
+    }
+
+    function getMultipliedIngredient(idx, multiplicator) {
+        if (idx >= ingredientAmountTds.length || idx >= ingredientUnitTds.length) {
+            console.error(
+                `Requested convertAmount for out-of-bounds index ${idx}. Max index: ${ingredientAmountTds.length - 1}`
+            );
+            return;
+        }
+        const amountText = ingredientAmountTds[idx].attributes['amount']?.value || '';
+        const unit = ingredientUnitTds[idx].attributes['unit']?.value || '';
+        if (amountText.length == 0) {
+            return {"amount": amountText, "unit": unit};
+        }
+        const amount = Number(amountText) * multiplicator;
+        const result = getHumanReadableAmount(amount, unit);
+        if (typeof result.amount === 'number') {
+            result.amount = result.amount.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+        }
+        return result;
+    }
+
+    function getHumanReadableAmount(amount, unit) {
+        if (unit === 'g') {
+            if (amount < 0.1) {
+				return {"amount": amount*1000, "unit": 'mg'};
+            }
+			else if(amount < 1000) {
+				return {"amount": amount, "unit": 'g'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'kg'};
+            }
+        }
+		else if (unit === 'ml') {
+			if (amount < 1000) {
+				return {"amount": amount, "unit": 'ml'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'L'};
+            }
+        }
+		else if (unit === 'TL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'TL'};
+            }
+            else {
+                return getHumanReadableAmount(amount*5, 'ml');
+            }
+        }
+		else if (unit === 'EL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'EL'};
+            }
+			else {
+                return getHumanReadableAmount(amount*15, 'ml');
+            }
+        }
+		else {
+            return {"amount": amount, "unit": unit};
+        }
+    };
+    
+    let debounceTimeout;
+    multiplicatorInput.addEventListener('input', (event) => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => updateMultiplicators(), 500);
+    });
+
+    // fill initial values
+    updateMultiplicators();
+</script>
+</html>

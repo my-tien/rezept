@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang='de-DE'>
+
+<head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>Landbrot mit Sauerteig</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #242424;
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 2rem 4rem;
+        }
+
+        .container {
+            max-width: 99ch;
+        }
+
+        .container > img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container > * + * {
+            margin-top: 1rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #8f5902;
+            margin-top: 2rem;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        table td:first-of-type {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        table td:last-of-type {
+            border-left: 1px solid #8f5902;
+            padding-left: 1rem;
+        }
+
+        table td {
+            padding: 0.5rem 1rem;
+        }
+
+        table tr:nth-of-type(2n) {
+            background-color: #e9b96e;
+        }
+
+        ul {
+            list-style: square;
+            margin-left: 36px;
+        }
+        ul > li + li {
+            margin-top: 0.5rem;
+        }
+
+        hr {
+            background-color: #e9b96e;
+            border: 0;
+            height: 2px;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: #8f5902;
+            text-decoration: none;
+            border-bottom: 2px dashed #e9b96e;
+        }
+
+        a:hover {
+            border-bottom-color: #8f5902;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+
+    <h1>Landbrot mit Sauerteig</h1>
+    <p></p>
+
+    
+    <img src="../images/landbrot-mit-sauerteig.jpg" alt="Image of Landbrot mit Sauerteig" />
+    
+
+    <h2>Zutaten (Menge ×<span id="MultiplicatorText">1</span>)</h2>
+    <p>Gib die gewünschte Menge an:</p>
+    <p>
+        <label for="amount">Mengen-Multiplikator:</label>
+        <input type="number" id="amountInput" name="amount" min="0" step="0.5" value="1" />
+    </p>
+
+    
+
+    
+        
+            <h3>Sauerteig</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='67'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Weizensauerteig</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='67'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Wasser</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='67'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Weizenmehl Type 550</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Hauptteig</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='112.5'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Weizensauerteig</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='280'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Wasser</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='262.5'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Weizenmehl Type 550 (14% Gluten)</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='67.5'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Alpenroggenmehl</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='67.5'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Vollkornweizenmehl</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='9'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Salz</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1.9'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Backmalz</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='0.75'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Trockenhefe</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='20'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Saaten (optional)</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Für die Kruste</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount=''></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Saaten (optional)</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+    
+
+    
+        <h2>Utensilien</h2>
+        <ul>
+            
+                <li>Teigschaber</li>
+            
+                <li>Gusseisentopf</li>
+            
+        </ul>
+    
+
+    
+        <h2>Ofeneinstellung</h2>
+        <p>⏲ 260°C Ober-/Unterhitze vorzeigen, 245°C mit Deckel 10 Minuten, 230°C ohne Deckel 30 - 35 Minuten</p>
+    
+
+    <hr>
+
+    <ul>
+<li>Den Sauerteig verdoppeln lassen und 87.5 g als Anstellgut zurück in den Kühlschrank stellen.</li>
+<li>Alle Zutaten außer Salz auf niedriger Stufe mischen und anschließend bei Zimmertemperatur 20 Minuten ruhen lassen (Autolyse).</li>
+<li>Salz (und optional Saaten) hinzufügen und auf mittlerer Stufe kneten bis der Teig anfängt zu glänzen.</li>
+<li>Abgedeckt bei Zimmertemperatur 2.5 h gehen lassen. Dabei nach 60 und nach 120 Minuten je einmal dehnen und falten (Stockgare).</li>
+<li>Falls keine Saaten auf die Kruste sollen, Gärkörbchen bemehlen.</li>
+<li>Teig rundwirken und für 20 Minuten abgedeckt ruhen lassen (Vorformen)</li>
+<li>Teigling langwirken und optional in Saaten rollen.</li>
+<li>Mit Schluss nach oben in Gärkörbchen legen.</li>
+<li>Abgedeckt im Kühlschrank für 12 h reifen lassen (Stückgare).</li>
+<li>Backofen mit Gusseisentopf auf 250°C Ober-/Unterhitze vorheizen.</li>
+<li>Teigling auf ein Brett mit Backpapier stürzen und länglich einscheniden.</li>
+<li>Mit Backpapier auf den heißen Gusseisentopf transferieren, mit etwas Wasser besprühen und mit Deckel in den Ofen schieben.</li>
+<li>Ofen auf 245°C reduzieren.</li>
+<li>Nach 10 Minuten Deckel entfernen und Temperatur auf 230°C absenken.</li>
+<li>Weitere 30 - 35 Minuten backen.</li>
+<li>Quelle: https://www.el-gusto.net/rezept/landbrot-mit-sauerteig/</li>
+</ul>
+
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+</div>
+</body>
+<script>
+    const multiplicatorInput = document.querySelector('#amountInput');
+    const multiplicatorText = document.querySelector('#MultiplicatorText');
+    const ingredientAmountTds = document.querySelectorAll('.ingredient-amount');
+    const ingredientUnitTds = document.querySelectorAll('.ingredient-unit');
+    
+    function updateMultiplicators() {
+        const multiplicator = Number(multiplicatorInput.value || 1);
+        
+        multiplicatorText.textContent = multiplicator;
+
+        ingredientAmountTds.forEach((amountTd, idx) => {
+            const result = getMultipliedIngredient(idx, multiplicator);
+            amountTd.textContent = result.amount;
+            ingredientUnitTds[idx].textContent = result.unit;
+        });
+    }
+
+    function getMultipliedIngredient(idx, multiplicator) {
+        if (idx >= ingredientAmountTds.length || idx >= ingredientUnitTds.length) {
+            console.error(
+                `Requested convertAmount for out-of-bounds index ${idx}. Max index: ${ingredientAmountTds.length - 1}`
+            );
+            return;
+        }
+        const amountText = ingredientAmountTds[idx].attributes['amount']?.value || '';
+        const unit = ingredientUnitTds[idx].attributes['unit']?.value || '';
+        if (amountText.length == 0) {
+            return {"amount": amountText, "unit": unit};
+        }
+        const amount = Number(amountText) * multiplicator;
+        const result = getHumanReadableAmount(amount, unit);
+        if (typeof result.amount === 'number') {
+            result.amount = result.amount.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+        }
+        return result;
+    }
+
+    function getHumanReadableAmount(amount, unit) {
+        if (unit === 'g') {
+            if (amount < 0.1) {
+				return {"amount": amount*1000, "unit": 'mg'};
+            }
+			else if(amount < 1000) {
+				return {"amount": amount, "unit": 'g'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'kg'};
+            }
+        }
+		else if (unit === 'ml') {
+			if (amount < 1000) {
+				return {"amount": amount, "unit": 'ml'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'L'};
+            }
+        }
+		else if (unit === 'TL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'TL'};
+            }
+            else {
+                return getHumanReadableAmount(amount*5, 'ml');
+            }
+        }
+		else if (unit === 'EL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'EL'};
+            }
+			else {
+                return getHumanReadableAmount(amount*15, 'ml');
+            }
+        }
+		else {
+            return {"amount": amount, "unit": unit};
+        }
+    };
+    
+    let debounceTimeout;
+    multiplicatorInput.addEventListener('input', (event) => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => updateMultiplicators(), 500);
+    });
+
+    // fill initial values
+    updateMultiplicators();
+</script>
+</html>

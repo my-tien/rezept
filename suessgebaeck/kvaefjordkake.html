@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang='de-DE'>
+
+<head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>Kvæfjordkake</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #242424;
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 2rem 4rem;
+        }
+
+        .container {
+            max-width: 99ch;
+        }
+
+        .container > img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container > * + * {
+            margin-top: 1rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #8f5902;
+            margin-top: 2rem;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        table td:first-of-type {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        table td:last-of-type {
+            border-left: 1px solid #8f5902;
+            padding-left: 1rem;
+        }
+
+        table td {
+            padding: 0.5rem 1rem;
+        }
+
+        table tr:nth-of-type(2n) {
+            background-color: #e9b96e;
+        }
+
+        ul {
+            list-style: square;
+            margin-left: 36px;
+        }
+        ul > li + li {
+            margin-top: 0.5rem;
+        }
+
+        hr {
+            background-color: #e9b96e;
+            border: 0;
+            height: 2px;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: #8f5902;
+            text-decoration: none;
+            border-bottom: 2px dashed #e9b96e;
+        }
+
+        a:hover {
+            border-bottom-color: #8f5902;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+
+    <h1>Kvæfjordkake</h1>
+    <p>Laut einer Umfrage der beliebteste Kuchen Norwegens</p>
+
+    
+    <img src="../images/kvaefjordkake.jpg" alt="Image of Kvæfjordkake" />
+    
+
+    <h2>Zutaten (Menge ×<span id="MultiplicatorText">1</span>)</h2>
+    <p>Gib die gewünschte Menge an:</p>
+    <p>
+        <label for="amount">Mengen-Multiplikator:</label>
+        <input type="number" id="amountInput" name="amount" min="0" step="0.5" value="1" />
+    </p>
+
+    
+
+    
+        
+            <h3>Vanille-Pudding</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='150'></td>
+                <td class="ingredient-unit" unit='ml'></td>
+                <td>Vollmilch</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='150'></td>
+                <td class="ingredient-unit" unit='ml'></td>
+                <td>Schlagsahne ~34% Fett</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='3'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Eigelb M</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='25'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Maisstärke</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='25'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Mehl Type 450</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit='TL'></td>
+                <td>Vanille-Paste</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='50'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Zucker</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Rührkuchenteig</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='150'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Butter</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='100'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Zucker</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='4'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Eigelb M</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='60'></td>
+                <td class="ingredient-unit" unit='ml'></td>
+                <td>Vollmilch</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit='TL'></td>
+                <td>Vanillepaste</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='150'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Mehl Type 450</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit='TL'></td>
+                <td>Backpulver</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Baiser-Topping</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='7'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Eiweiß M</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='200'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>weißer Zucker</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='50'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Mandelstifte</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Vanille-Creme</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount=''></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Vanille-Pudding</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='250'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Schlagsahne ~34% Fett</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+    
+
+    
+
+    
+        <h2>Ofeneinstellung</h2>
+        <p>⏲ 170°C Ober-/Unterhitze, mittlere Schiene, 27 Minuten</p>
+    
+
+    <hr>
+
+    <h2>Vanille-Pudding</h2>
+<p>(Als Alternative zu diesem Schritt Vanille-Pudding-Pulver nach Anleitung zubereiten.)</p>
+<ul>
+<li>Milch und Schlagsahne im Topf erhitzen, bis Dampf aufsteigt (nicht bis es kocht).</li>
+<li>In einer Schüssel 3 Eigelb mit Zucker verquirlen (Das Eiweiß für den Baiser aufbewahren).</li>
+<li>Mehl und Maisstärke hinzufügen und nur so lange weiterrühren, bis die Masse homogen ist.</li>
+<li>Ungefähr die Hälfte der erhitzten Milch und Schlagsahne unter Rühren langsam dazugeben.</li>
+<li>Die gesamte Menge nun in den Topf mit der restlichen Milch und Schlagsahne geben.</li>
+<li>Unter ständigem Rühren bei mittlerer Hitze andicken lassen.</li>
+<li>Vanille-Paste hinzugeben und ca. 30 Sekunden weiterrühren, dann Hitze ausschalten.</li>
+<li>Falls Klümpchen vorhanden sind, die Pudding-Masse durch ein Sieb drücken.</li>
+<li>Mit Frischhaltefolie direkt auf der Pudding-Masse bedecken um Hautbildung zu vermeiden.</li>
+<li>Im Kühlschrank mindestens 4 Stunden kühl stellen.</li>
+</ul>
+<h2>Rührkuchenteig</h2>
+<ul>
+<li>Butter und Zucker flockig verquirlen.</li>
+<li>4 Eigelb hinzugeben und gut einmixen (Das Eiweiß für den Baiser aufbewahren).</li>
+<li>Milch und Vanillepaste einrühren.</li>
+<li>Zum Schluss kurz das Mehl und Backpulver einrühren.</li>
+<li>Die Teigmasse auf einem Backblech ca. 5 mm flach und gleichmäßig verteilen.</li>
+</ul>
+<h2>Baiser-Topping</h2>
+<ul>
+<li>Mandelstifte bei mittlerer Hitze in der Pfanne kurz anrösten (nicht, bis sie braun werden).</li>
+<li>Das Eiweiß in einer sauberen Schüssel aufschlagen, bis es schaumig wird.</li>
+<li>Unter ständigem Schlagen den Zucker in 3 Portionen hinzugeben.</li>
+<li>Weiterschlagen, bis die Baiser-Masse steif genug ist. Zum Test die Schlagstäbe herausziehen und danach Ausschau halten, dass ein Eischneezipfel absteht.</li>
+<li>Masse hügelig auf dem Rührteig verteilen.</li>
+<li>Angeröstete Mandelstifte darüber sprenkeln.</li>
+<li>Im vorgeheizten Backofen bei 170°C Ober-/Unterhitze ca. 27 Minuten backen. Der Teig ist fertig, wenn die Baiser-Masse rissig und leicht gebräunt ist.</li>
+<li>Aus dem Ofen nehmen und noch warm in der Mitte halbieren. Dies sind später die Ober- und Unterseite des Kuchens.</li>
+<li>Abkühlen lassen.</li>
+</ul>
+<h2>Vanille-Creme</h2>
+<ul>
+<li>Schlagsahne in einer sauberen Schüssel steif schlagen. Die Sahne ist steif, wenn sie beim Herausziehen der Rührstäbe ihre Form behält.</li>
+<li>Den gekühlten Vanille-Pudding nach und nach in die Sahne einrühren, bis eine homogene Creme entstanden ist.</li>
+</ul>
+<h2>Kuchen fertig stellen</h2>
+<ul>
+<li>Eine der zwei Böden umdrehen, sodass die Baiser-Seite nach unten zeigt.</li>
+<li>Die Vanille-Creme darauf verteilen.</li>
+<li>zweiten Boden mit der Rührteig-Seite auf die Creme legen.</li>
+</ul>
+<p>Quellen: https://www.youtube.com/watch?v=1RmZJrDPn6A, https://youtube.com/watch?v=URFvzAqtIN8, https://scandinaviancookbook.com/kvaefjord-cake-verdens-beste-worlds-best-cake/</p>
+
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+</div>
+</body>
+<script>
+    const multiplicatorInput = document.querySelector('#amountInput');
+    const multiplicatorText = document.querySelector('#MultiplicatorText');
+    const ingredientAmountTds = document.querySelectorAll('.ingredient-amount');
+    const ingredientUnitTds = document.querySelectorAll('.ingredient-unit');
+    
+    function updateMultiplicators() {
+        const multiplicator = Number(multiplicatorInput.value || 1);
+        
+        multiplicatorText.textContent = multiplicator;
+
+        ingredientAmountTds.forEach((amountTd, idx) => {
+            const result = getMultipliedIngredient(idx, multiplicator);
+            amountTd.textContent = result.amount;
+            ingredientUnitTds[idx].textContent = result.unit;
+        });
+    }
+
+    function getMultipliedIngredient(idx, multiplicator) {
+        if (idx >= ingredientAmountTds.length || idx >= ingredientUnitTds.length) {
+            console.error(
+                `Requested convertAmount for out-of-bounds index ${idx}. Max index: ${ingredientAmountTds.length - 1}`
+            );
+            return;
+        }
+        const amountText = ingredientAmountTds[idx].attributes['amount']?.value || '';
+        const unit = ingredientUnitTds[idx].attributes['unit']?.value || '';
+        if (amountText.length == 0) {
+            return {"amount": amountText, "unit": unit};
+        }
+        const amount = Number(amountText) * multiplicator;
+        const result = getHumanReadableAmount(amount, unit);
+        if (typeof result.amount === 'number') {
+            result.amount = result.amount.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+        }
+        return result;
+    }
+
+    function getHumanReadableAmount(amount, unit) {
+        if (unit === 'g') {
+            if (amount < 0.1) {
+				return {"amount": amount*1000, "unit": 'mg'};
+            }
+			else if(amount < 1000) {
+				return {"amount": amount, "unit": 'g'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'kg'};
+            }
+        }
+		else if (unit === 'ml') {
+			if (amount < 1000) {
+				return {"amount": amount, "unit": 'ml'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'L'};
+            }
+        }
+		else if (unit === 'TL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'TL'};
+            }
+            else {
+                return getHumanReadableAmount(amount*5, 'ml');
+            }
+        }
+		else if (unit === 'EL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'EL'};
+            }
+			else {
+                return getHumanReadableAmount(amount*15, 'ml');
+            }
+        }
+		else {
+            return {"amount": amount, "unit": unit};
+        }
+    };
+    
+    let debounceTimeout;
+    multiplicatorInput.addEventListener('input', (event) => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => updateMultiplicators(), 500);
+    });
+
+    // fill initial values
+    updateMultiplicators();
+</script>
+</html>
