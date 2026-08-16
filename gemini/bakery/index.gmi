@@ -68,11 +68,11 @@ Between breadcrumbs and oven mittens lies an open book full of German recipes:
 
 Curiously, on the last page of the bakery’s recipe book is a list of recipes that are neither German nor do they seem suitable for a bakery.
 
-=> /bakery/z-last-page/banh-cu-cai Bánh Củ Cải (Vietnamesischer Rettichkuchen) (2022-05-30)
-=> /bakery/z-last-page/yu-xiang-qie-zi 鱼香茄子 – Yú xiāng qié zi (2021-11-30)
-=> /bakery/z-last-page/suong-sa Sương Sa (Vietnamesischer Wackelpudding) (2023-06-29)
-=> /bakery/z-last-page/cong-you-bing 蔥油餅 (Cōng Yóu Bǐng/Lauchzwiebel-Öl-Pfannkuchen) (2021-01-06)
-=> /bakery/z-last-page/tai-yang-bing 太陽餅 (Tàiyáng Bǐng/Sonnenkuchen) (2020-10-25)
-=> /bakery/z-last-page/thit-chung-trung-muoi Thịt Chưng Trứng Muối (Vietnamesische Fleischpastete mit salzigen Eiern) (2022-05-21)
-=> /bakery/z-last-page/do-chua Đồ Chua (Sauer eingelegter Rettich und Karotte) (2022-05-21)
-=> /bakery/z-last-page/hummus-aus-dem-mixer Hummus aus dem Mixer (2024-08-16)
+=> /bakery/last-page/banh-cu-cai Bánh Củ Cải (Vietnamesischer Rettichkuchen) (2022-05-30)
+=> /bakery/last-page/yu-xiang-qie-zi 鱼香茄子 – Yú xiāng qié zi (2021-11-30)
+=> /bakery/last-page/suong-sa Sương Sa (Vietnamesischer Wackelpudding) (2023-06-29)
+=> /bakery/last-page/cong-you-bing 蔥油餅 (Cōng Yóu Bǐng/Lauchzwiebel-Öl-Pfannkuchen) (2021-01-06)
+=> /bakery/last-page/tai-yang-bing 太陽餅 (Tàiyáng Bǐng/Sonnenkuchen) (2020-10-25)
+=> /bakery/last-page/thit-chung-trung-muoi Thịt Chưng Trứng Muối (Vietnamesische Fleischpastete mit salzigen Eiern) (2022-05-21)
+=> /bakery/last-page/do-chua Đồ Chua (Sauer eingelegter Rettich und Karotte) (2022-05-21)
+=> /bakery/last-page/hummus-aus-dem-mixer Hummus aus dem Mixer (2024-08-16)
