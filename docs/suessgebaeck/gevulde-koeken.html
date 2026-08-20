@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang='de-DE'>
+
+<head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>Gevulde Koeken</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #242424;
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 2rem 4rem;
+        }
+
+        .container {
+            max-width: 99ch;
+        }
+
+        .container > img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container > * + * {
+            margin-top: 1rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #8f5902;
+            margin-top: 2rem;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        table td:first-of-type {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        table td:last-of-type {
+            border-left: 1px solid #8f5902;
+            padding-left: 1rem;
+        }
+
+        table td {
+            padding: 0.5rem 1rem;
+        }
+
+        table tr:nth-of-type(2n) {
+            background-color: #e9b96e;
+        }
+
+        ul {
+            list-style: square;
+            margin-left: 36px;
+        }
+        ul > li + li {
+            margin-top: 0.5rem;
+        }
+
+        hr {
+            background-color: #e9b96e;
+            border: 0;
+            height: 2px;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: #8f5902;
+            text-decoration: none;
+            border-bottom: 2px dashed #e9b96e;
+        }
+
+        a:hover {
+            border-bottom-color: #8f5902;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+
+    <h1>Gevulde Koeken</h1>
+    <p>Der »Gefüllter Kuchen«, auch bekannt als Gevuld Heertje (gefüllter Herr) oder Gevulde Herenkoek (gefüllter Herrenkuchen) ist ein weit verbreitetes niederländische Küchlein oder Plätzchen, das meistens mit Mandelpaste gefüllt ist. Dieses Rezept basiert auf zwei niederländischen Quellen, auf die ich unten verweise. Ich habe danach recherchiert, ob die Mandeln vor der Verarbeitung geröstet werden sollten, habe dazu allerdings keinerlei Informationen gefunden. Vermutlich sind ungeröstete Mandeln von Vorteil, da die Röstung zur Freisetzung des nusseigenen Öls führt, was bei Mandelpaste ausdrücklich nicht gewünscht ist.</p>
+
+    
+    <img src="../images/gevulde-koeken.jpg" alt="Image of Gevulde Koeken" />
+    
+
+    <h2>Zutaten (Menge ×<span id="MultiplicatorText">1</span>)</h2>
+    <p>Gib die gewünschte Menge an:</p>
+    <p>
+        <label for="amount">Mengen-Multiplikator:</label>
+        <input type="number" id="amountInput" name="amount" min="0" step="0.5" value="1" />
+    </p>
+
+    
+
+    
+        
+            <h3>Mandelpaste</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='125'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>blanchierte und geschälte Mandeln</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='125'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Zucker</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='0.5'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Zitrone, nur die Schale</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Ei M</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Teig</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='300'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Mehl Type 405</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit='TL'></td>
+                <td>Backpulver</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='120'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Feiner Backzucker</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='180'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>ungesalzene Butter auf Zimmertemperatur</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='0.25'></td>
+                <td class="ingredient-unit" unit='TL'></td>
+                <td>Salz</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit='EL'></td>
+                <td>Milch</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Eigelb M</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='0.5'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Zitrone, nur die Schale</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Füllung</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='240'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Mandelpaste</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Eigelb M</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit='TL'></td>
+                <td>Wasser</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Eistreiche und Garnierung</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Ei</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='2'></td>
+                <td class="ingredient-unit" unit='EL'></td>
+                <td>Wasser</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='45'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>blanchierte und geschälte Mandeln</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+    
+
+    
+        <h2>Utensilien</h2>
+        <ul>
+            
+                <li>Standmixer</li>
+            
+                <li>Rührgerät</li>
+            
+                <li>Nudelholz</li>
+            
+                <li>Runder Ausstecher, ca. 8 cm</li>
+            
+        </ul>
+    
+
+    
+        <h2>Ofeneinstellung</h2>
+        <p>⏲ 210°C Umluft, 15 Minuten</p>
+    
+
+    <hr>
+
+    <h2>Vorbereitung</h2>
+<h3>2 Tage vorher: Mandelpaste</h3>
+<p>Die Mandelpaste am besten 2 Tage bis zu einer Woche vorher zubereiten, damit sie ausreichend Zeit hat, Aromen zu entwickeln.</p>
+<ul>
+<li>Mandeln, Zucker und Zitronenschale im Standmixer zu einem gleichmäßigen Mandelmehl mixen. Dabei darauf achten, rechtzeitig aufzuhören, bevor das Mandelöl sich trennt.</li>
+<li>EIn eine Schüssel geben und ein Ei einkneten, bis eine einheitliche Masse entstanden ist. Diese sollte sich zu einer klebrigen Kugel formen lassen.</li>
+<li>Die Mandelpaste als Kugel in Frischhaltefolie einwickeln und im Kühlschrank 2 Tage oder bis zu einer Woche ruhen lassen.</li>
+</ul>
+<h3>1 Teig vorher: Teig</h3>
+<p>Auch der Teig kann für die Entfaltung der Aromen mindestens eine Stunde (besser einen Tag) vorher zubereitet werden.</p>
+<ul>
+<li>Zitronenschale, Butter, Zucker und Salz mit dem Rührgerät flockig verrühren.</li>
+<li>Ei und Milch hinzugeben und gründlich weiterrühren, sodass eine helle Creme entsteht.</li>
+<li>Mehl und Backpulver separat vermischen und gemeinsam zur Buttercreme geben.</li>
+<li>Mit der Hand nur so lang verkneten, bis ein gleichmäßiger Teig entsteht, der nicht mehr an den Händen klebt. Falls der Teig sehr klebrig erscheint, können 25 g Mehl hinzugefügt werden.</li>
+<li>Den Teigling zu einer Kugel formen und im Kühlschrank 1 Stunde bis zu einem Tag ruhen lassen.</li>
+</ul>
+<h2>Backtag</h2>
+<p>Am Backtag daran denken, die Mandelpaste und den Teig eine Stunde vorher zur Klimatisierung aus dem Kühlschrank zu holen!</p>
+<h3>Füllung</h3>
+<ul>
+<li>Mandelpaste und Eigelb mit der Hand oder einem Löffel zu einer konsistenten Masse verkneten.</li>
+<li>Wasser hinzugeben und dieses ebenfalls gleichmäßig einkneten.</li>
+</ul>
+<h3>Küchlein formen</h3>
+<ul>
+<li>Backblech mit Backpapier bereitlegen.</li>
+<li>Den Teig in zwei gleiche Hälften teilen.</li>
+<li>Die erste Hälfte 3 mm dünn ausrollen und mit dem Ausstecher Kreise ausstechen und diese mit 2 cm Abstand zueinander auf dem Backblech platzieren.</li>
+<li>Tipp: Benutzt man als Unterlage Backpapier, kann man auf eine Bemehlung der Arbeitsfläche verzichten (weniger trockene Küchlein), und kann die Kreisformen zudem ohne Verzerrungen auf das Backblech übertragen, indem man sie einfach kopfüber vom Backpapier löst und direkt auf das Blech fallen lässt.</li>
+<li>Die Mandelpaste gleichmäßig als kleine Häufchen auf den Teigkreisen verteilen und dabei 1.25 cm zum Rand lassen.</li>
+<li>Aus der anderen Teighälfte dieselbe Anzahl Kreise ausstechen und als Deckel mittig auf die Mandelpaste legen.</li>
+<li>Mit der Handfläche leicht auf die Deckel drücken, damit eine flache Kuppel entsteht.</li>
+<li>Mit der flachen Gabel die Ränder rundherum eindrücken und die Küchlein damit versiegeln.</li>
+</ul>
+<h3>Eistreiche und Dekoration</h3>
+<ul>
+<li>Für die Eistreiche das Ei und Wasser gleichmäßig verrühren.</li>
+<li>Jedes Küchlein komplett bestreichen.</li>
+<li>Anschließend auf jedem Küchlein drei Mandeln andrücken.</li>
+<li>Auch die Mandeln mit der Eistreiche überziehen.</li>
+<li>15 Minuten antrocknen lassen und dabei den Herd schonmal auf 210°C Umluft vorheizen.</li>
+</ul>
+<h3>Backen</h3>
+<ul>
+<li>Die Küchlein ca. 15 Minuten backen bis sie goldgelb sind.</li>
+<li>
+<p>Für ein gleichmäßiges Ergebnis am besten nach der Hälfte der Zeit einmal das Backblech drehen.</p>
+</li>
+<li>
+<p>Quellen: Cees Holtkamp https://www.youtube.com/watch?v=4LzpBzSXjbI, Toines Kitchen https://www.toineskitchen.com/recipes/gevulde-koeken/</p>
+</li>
+</ul>
+
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+</div>
+</body>
+<script>
+    const multiplicatorInput = document.querySelector('#amountInput');
+    const multiplicatorText = document.querySelector('#MultiplicatorText');
+    const ingredientAmountTds = document.querySelectorAll('.ingredient-amount');
+    const ingredientUnitTds = document.querySelectorAll('.ingredient-unit');
+    
+    function updateMultiplicators() {
+        const multiplicator = Number(multiplicatorInput.value || 1);
+        
+        multiplicatorText.textContent = multiplicator;
+
+        ingredientAmountTds.forEach((amountTd, idx) => {
+            const result = getMultipliedIngredient(idx, multiplicator);
+            amountTd.textContent = result.amount;
+            ingredientUnitTds[idx].textContent = result.unit;
+        });
+    }
+
+    function getMultipliedIngredient(idx, multiplicator) {
+        if (idx >= ingredientAmountTds.length || idx >= ingredientUnitTds.length) {
+            console.error(
+                `Requested convertAmount for out-of-bounds index ${idx}. Max index: ${ingredientAmountTds.length - 1}`
+            );
+            return;
+        }
+        const amountText = ingredientAmountTds[idx].attributes['amount']?.value || '';
+        const unit = ingredientUnitTds[idx].attributes['unit']?.value || '';
+        if (amountText.length == 0) {
+            return {"amount": amountText, "unit": unit};
+        }
+        const amount = Number(amountText) * multiplicator;
+        const result = getHumanReadableAmount(amount, unit);
+        if (typeof result.amount === 'number') {
+            result.amount = result.amount.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+        }
+        return result;
+    }
+
+    function getHumanReadableAmount(amount, unit) {
+        if (unit === 'g') {
+            if (amount < 0.1) {
+				return {"amount": amount*1000, "unit": 'mg'};
+            }
+			else if(amount < 1000) {
+				return {"amount": amount, "unit": 'g'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'kg'};
+            }
+        }
+		else if (unit === 'ml') {
+			if (amount < 1000) {
+				return {"amount": amount, "unit": 'ml'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'L'};
+            }
+        }
+		else if (unit === 'TL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'TL'};
+            }
+            else {
+                return getHumanReadableAmount(amount*5, 'ml');
+            }
+        }
+		else if (unit === 'EL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'EL'};
+            }
+			else {
+                return getHumanReadableAmount(amount*15, 'ml');
+            }
+        }
+		else {
+            return {"amount": amount, "unit": unit};
+        }
+    };
+    
+    let debounceTimeout;
+    multiplicatorInput.addEventListener('input', (event) => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => updateMultiplicators(), 500);
+    });
+
+    // fill initial values
+    updateMultiplicators();
+</script>
+</html>

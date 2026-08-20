@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang='de-DE'>
+
+<head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>Engadiner Nusstorte</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: #242424;
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 2rem 4rem;
+        }
+
+        .container {
+            max-width: 99ch;
+        }
+
+        .container > img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container > * + * {
+            margin-top: 1rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #8f5902;
+            margin-top: 2rem;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        table td:first-of-type {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        table td:last-of-type {
+            border-left: 1px solid #8f5902;
+            padding-left: 1rem;
+        }
+
+        table td {
+            padding: 0.5rem 1rem;
+        }
+
+        table tr:nth-of-type(2n) {
+            background-color: #e9b96e;
+        }
+
+        ul {
+            list-style: square;
+            margin-left: 36px;
+        }
+        ul > li + li {
+            margin-top: 0.5rem;
+        }
+
+        hr {
+            background-color: #e9b96e;
+            border: 0;
+            height: 2px;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: #8f5902;
+            text-decoration: none;
+            border-bottom: 2px dashed #e9b96e;
+        }
+
+        a:hover {
+            border-bottom-color: #8f5902;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+
+    <h1>Engadiner Nusstorte</h1>
+    <p>Auch Bündner Nusstorte nach dem Kanton Graubünden. Eine wuchtige Torte aus der Schweiz mit Mürbeteig, Karamell und Walnüssen.</p>
+
+    
+    <img src="../images/engadiner-nusstorte.jpg" alt="Image of Engadiner Nusstorte" />
+    
+
+    <h2>Zutaten (Menge ×<span id="MultiplicatorText">1</span>)</h2>
+    <p>Gib die gewünschte Menge an:</p>
+    <p>
+        <label for="amount">Mengen-Multiplikator:</label>
+        <input type="number" id="amountInput" name="amount" min="0" step="0.5" value="1" />
+    </p>
+
+    
+
+    
+        
+            <h3>Mürbeteig</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='300'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Mehl</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='100'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Zucker</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='200'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Butter</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Ei M</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit='Prise'></td>
+                <td>Salz</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Röstmasse</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='300'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Walnüsse</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='2'></td>
+                <td class="ingredient-unit" unit='EL'></td>
+                <td>Wasser</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='250'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Zucker</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='250'></td>
+                <td class="ingredient-unit" unit='g'></td>
+                <td>Schlagsahne mit 32% Fettanteil oder mehr</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+            <h3>Eistreiche</h3>
+            <table>
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='1'></td>
+                <td class="ingredient-unit" unit=''></td>
+                <td>Ei</td>
+            </tr>
+        
+    
+                
+                    
+        
+        
+            <tr>
+                <td class="ingredient-amount" amount='2'></td>
+                <td class="ingredient-unit" unit='EL'></td>
+                <td>Wasser</td>
+            </tr>
+        
+    
+                
+            </table>
+        
+    
+
+    
+        <h2>Utensilien</h2>
+        <ul>
+            
+                <li>Springform</li>
+            
+        </ul>
+    
+
+    
+        <h2>Ofeneinstellung</h2>
+        <p>⏲ 150°C Umluft, 35 Min</p>
+    
+
+    <hr>
+
+    <h2>Vortag</h2>
+<ul>
+<li>Zucker, Butter, Salz flockig rühren.</li>
+<li>Ei dazugeben und gründlich zu einer Buttercreme verrühren.</li>
+<li>Mehl von Hand nur so lange einkneten, bis ein gleichmäßiger Teig entsteht.</li>
+<li>Den Teig zu 3 gleichen Kugeln formen und für eine Nacht im Kühlschrank ruhen lassen.</li>
+</ul>
+<h2>Backtag</h2>
+<ul>
+<li>Teigkugeln eine Stunde vor der Verarbeitung aus dem Kühlschrank holen und aklimatisieren lassen.</li>
+</ul>
+<h3>Röstmasse</h3>
+<ul>
+<li>Walnüsse in der Hand zu kleineren Stückchen zerdrücken.</li>
+<li>Zucker und Wasser bei mittlerer Hitze karamellisieren.</li>
+<li>Währenddessen die Sahne kochen, damit sie sehr heiß ist.</li>
+<li>Wenn der Zucker sich aufgelöst hat, die kochend heiße Sahne langsam unter ständigem Rühren dazugeben.</li>
+<li>Es ist normal, dass es dabei stark blubbert und dampft. Allerdings sollten sich keine Klümpchen formen. Andernfalls war der Temperaturunterschied zwischen Sahne und Karamell zu hoch und man sollte von vorne beginnen.</li>
+<li>Den Herd ausstellen und die Walnüsse einmischen.</li>
+<li>Walnuss-Röstmasse abkühlen lassen. Währenddessen mit dem Teig fortfahren.</li>
+</ul>
+<h3>Teigboden</h3>
+<ul>
+<li>Springform mit Backpapier auskleiden.</li>
+<li>Aus der ersten Kugel einen Boden formen, indem die Kugel mit dem Handballen auf dem Springformboden angedrückt und verteilt wird.</li>
+<li>Aus der zweiten Kugel einen Rand formen. Dazu den Teig zu einer Wurst drehen, die dem Umfang der Springform entspricht. Diese am Rand platzieren und zu einem halben Zentimeter dicken Rand andrücken.</li>
+<li>Die abgekühlte Röstmasse auf dem Teigboden verteilen.</li>
+<li>Aus der dritten Teigkugel den Deckel formen und auflegen.</li>
+<li>Für die Eistreiche das Ei und Wasser gleichmäßig verrühren. Mit einem Pinsel den Kuchen einstreichen.</li>
+<li>Mit einer Gabel flach über den Kuchendeckel ziehen um ein Streifenmuster zu erzeugen. Jeweils eine Gabelbreite Platz zwischen den Streifen lassen. Den Kuchen um 90° drehen und weitere Streifen ziehen um ein Gittermuster zu erhalten.</li>
+<li>Mit der flachen Gabel anschließend den Rand entlang eindrücken und ihn damit verzieren und versiegeln.</li>
+<li>Zum Schluss mit der Gabel senkrecht einige Löcher in den Deckel stechen, damit Dampf entweichen kann.</li>
+<li>Bei 150°C Umluft ca. 35 Minuten backen.</li>
+</ul>
+
+    <p>
+    <a href="../index.html">Close the book.</a>
+    </p>
+</div>
+</body>
+<script>
+    const multiplicatorInput = document.querySelector('#amountInput');
+    const multiplicatorText = document.querySelector('#MultiplicatorText');
+    const ingredientAmountTds = document.querySelectorAll('.ingredient-amount');
+    const ingredientUnitTds = document.querySelectorAll('.ingredient-unit');
+    
+    function updateMultiplicators() {
+        const multiplicator = Number(multiplicatorInput.value || 1);
+        
+        multiplicatorText.textContent = multiplicator;
+
+        ingredientAmountTds.forEach((amountTd, idx) => {
+            const result = getMultipliedIngredient(idx, multiplicator);
+            amountTd.textContent = result.amount;
+            ingredientUnitTds[idx].textContent = result.unit;
+        });
+    }
+
+    function getMultipliedIngredient(idx, multiplicator) {
+        if (idx >= ingredientAmountTds.length || idx >= ingredientUnitTds.length) {
+            console.error(
+                `Requested convertAmount for out-of-bounds index ${idx}. Max index: ${ingredientAmountTds.length - 1}`
+            );
+            return;
+        }
+        const amountText = ingredientAmountTds[idx].attributes['amount']?.value || '';
+        const unit = ingredientUnitTds[idx].attributes['unit']?.value || '';
+        if (amountText.length == 0) {
+            return {"amount": amountText, "unit": unit};
+        }
+        const amount = Number(amountText) * multiplicator;
+        const result = getHumanReadableAmount(amount, unit);
+        if (typeof result.amount === 'number') {
+            result.amount = result.amount.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+        }
+        return result;
+    }
+
+    function getHumanReadableAmount(amount, unit) {
+        if (unit === 'g') {
+            if (amount < 0.1) {
+				return {"amount": amount*1000, "unit": 'mg'};
+            }
+			else if(amount < 1000) {
+				return {"amount": amount, "unit": 'g'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'kg'};
+            }
+        }
+		else if (unit === 'ml') {
+			if (amount < 1000) {
+				return {"amount": amount, "unit": 'ml'};
+            }
+			else {
+				return {"amount": amount/1000, "unit": 'L'};
+            }
+        }
+		else if (unit === 'TL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'TL'};
+            }
+            else {
+                return getHumanReadableAmount(amount*5, 'ml');
+            }
+        }
+		else if (unit === 'EL') {
+            if (amount % 0.25 === 0) {
+                return {"amount": amount, "unit": 'EL'};
+            }
+			else {
+                return getHumanReadableAmount(amount*15, 'ml');
+            }
+        }
+		else {
+            return {"amount": amount, "unit": unit};
+        }
+    };
+    
+    let debounceTimeout;
+    multiplicatorInput.addEventListener('input', (event) => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => updateMultiplicators(), 500);
+    });
+
+    // fill initial values
+    updateMultiplicators();
+</script>
+</html>
